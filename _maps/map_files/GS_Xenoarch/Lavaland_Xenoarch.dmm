@@ -3070,7 +3070,6 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "cll" = (
 /obj/structure/fans/tiny/invisible,
-/obj/structure/mineral_door/calorite,
 /obj/structure/trap/fattening,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -5996,7 +5995,7 @@
 /obj/structure/door_assembly/door_assembly_material,
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/turf/closed/wall,
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/lowerlevel)
 "exu" = (
 /obj/machinery/button/door{
@@ -7315,8 +7314,9 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "fBq" = (
 /obj/structure/trap/fattening,
-/obj/structure/mineral_door/calorite,
 /obj/structure/trap/fattening,
+/obj/structure/fans/tiny/invisible,
+/obj/structure/mineral_door/calorite,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "fCg" = (
@@ -30189,6 +30189,7 @@
 "wsC" = (
 /obj/structure/mineral_door/calorite,
 /obj/structure/trap/fattening,
+/obj/structure/fans/tiny/invisible,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "wto" = (

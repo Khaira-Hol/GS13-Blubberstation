@@ -6044,6 +6044,12 @@
 "bWE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "bWM" = (
@@ -10082,13 +10088,10 @@
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance/testlab)
 "dmQ" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
+/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
 	name = "Canteen"
 	},
-/obj/machinery/door/firedoor,
 /turf/open/floor/stone,
 /area/station/service/kitchen/diner)
 "dmT" = (
@@ -11102,6 +11105,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/landmark/start/assistant,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "dEB" = (
@@ -15686,6 +15695,12 @@
 /obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "fcp" = (
@@ -15952,6 +15967,12 @@
 /turf/open/floor/iron/dark/smooth_half,
 /area/station/security/office)
 "fhA" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 6
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "fhG" = (
@@ -24783,6 +24804,12 @@
 "idM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "idN" = (
@@ -25610,9 +25637,14 @@
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "isf" = (
-/obj/effect/turf_decal/siding/wideplating/dark/corner,
-/turf/open/floor/grass,
-/area/station/biodome/aft)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark,
+/turf/open/floor/stone,
+/area/station/hallway/primary/central/aft)
 "isp" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -28804,6 +28836,12 @@
 /obj/structure/fence/door,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "jxg" = (
@@ -48712,11 +48750,14 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/department/cargo)
 "pIp" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 9
 	},
-/turf/closed/wall/mineral/wood,
-/area/station/service/kitchen/diner)
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/turf/open/floor/stone,
+/area/station/hallway/primary/central/aft)
 "pIA" = (
 /turf/open/misc/asteroid/dug,
 /area/station/maintenance/central/greater)
@@ -63690,6 +63731,12 @@
 /area/station/hallway/secondary/service)
 "uFA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
 /turf/open/floor/stone,
 /area/station/hallway/primary/central/aft)
 "uFB" = (
@@ -73282,6 +73329,9 @@
 "xIR" = (
 /obj/structure/fence{
 	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
 	},
 /turf/open/floor/grass,
 /area/station/hallway/primary/central/aft)
@@ -107602,7 +107652,7 @@ bAL
 jVi
 ePT
 bAL
-isf
+ota
 fPs
 pgD
 ota
@@ -109122,9 +109172,9 @@ syw
 syw
 xMM
 dTM
-pIp
+iuz
 dTM
-pIp
+iuz
 dmQ
 dTM
 iuz
@@ -164928,7 +164978,7 @@ vyS
 wOd
 ikk
 ple
-idM
+pIp
 idM
 fco
 idM
@@ -165185,7 +165235,7 @@ ikk
 ikk
 ikk
 krQ
-idM
+isf
 ple
 ple
 xZb
@@ -165442,7 +165492,7 @@ neH
 tIy
 xIR
 ple
-idM
+isf
 smK
 wJu
 vxC

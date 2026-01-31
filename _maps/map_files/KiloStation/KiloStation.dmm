@@ -17287,12 +17287,7 @@
 /turf/closed/wall,
 /area/station/security/checkpoint/engineering)
 "fGz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/effect/turf_decal/stripes/line,
 /turf/closed/wall,
 /area/station/commons/dorms)
 "fGC" = (
@@ -48023,7 +48018,6 @@
 /area/station/engineering/supermatter/room)
 "pvb" = (
 /obj/structure/sign/warning/secure_area,
-/obj/item/multitool,
 /turf/closed/wall/r_wall,
 /area/station/ai_monitored/command/nuke_storage)
 "pvf" = (
@@ -72541,11 +72535,6 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/storage)
-"xav" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/turf/closed/wall,
-/area/station/commons/dorms)
 "xaz" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -99166,7 +99155,7 @@ fuM
 tth
 pvm
 fuM
-xav
+moK
 qVR
 kTK
 iHT
