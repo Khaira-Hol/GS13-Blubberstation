@@ -76312,8 +76312,8 @@
 "ykB" = (
 /obj/structure/table/wood,
 /obj/machinery/fax{
-	fax_name = "Nanotrasen Consultant's Office";
-	name = "Nanotrasen Consultant's Fax Machine"
+	fax_name = "GATO Consultant's Office";
+	name = "GATO Consultant's Fax Machine"
 	},
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/wood,

@@ -65910,8 +65910,8 @@
 "pNh" = (
 /obj/structure/table/reinforced,
 /obj/machinery/fax{
-	name = "Nanotrasen Consultant's Fax Machine";
-	fax_name = "Nanotrasen Consultant's Office"
+	name = "GATO Consultant's Fax Machine";
+	fax_name = "GATO Consultant's Office"
 	},
 /obj/structure/sign/calendar/directional/west,
 /turf/open/floor/carpet/green,

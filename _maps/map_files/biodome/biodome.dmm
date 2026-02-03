@@ -15182,8 +15182,8 @@
 /obj/machinery/status_display/ai/directional/east,
 /obj/structure/table/wood,
 /obj/machinery/fax{
-	fax_name = "Nanotrasen Consultant's Office";
-	name = "Nanotrasen Consultant's Fax Machine"
+	fax_name = "GATO Consultant's Office";
+	name = "GATO Consultant's Fax Machine"
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,

@@ -363,11 +363,15 @@
 
 /datum/job/nanotrasen_consultant
 	alt_titles = list(
-		"Nanotrasen Consultant",
-		"Nanotrasen Advisor",
-		"Nanotrasen Diplomat",
+		//GS13 EDIT START (GATOFICATION)
+		"GATO Consultant",
+		"GATO Advisor",
+		"GATO Diplomat",
+		"GATO Representative",
+		"GATO Liason",
 		"Nanotrasen Representative",
-		"Nanotrasen Liason",
+		"Nanotrasen Consultant",
+		//GS13 EDIT END
 		"Command Consultant",
 		"Command Advisor",
 		"Corporate Diplomat",

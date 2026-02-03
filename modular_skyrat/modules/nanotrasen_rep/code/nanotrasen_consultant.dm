@@ -111,8 +111,8 @@
 	greyscale_colors = "#017941#0060b8"
 
 /obj/item/storage/bag/garment/nanotrasen_consultant
-	name = "nanotrasen consultant's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the Nanotrasen consultant."
+	name = "GATO consultant's garment bag" //GS13 EDIT
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the GATO consultant." //GS13 EDIT
 
 /obj/item/storage/bag/garment/nanotrasen_consultant/PopulateContents()
 	new /obj/item/clothing/shoes/sneakers/brown(src)
@@ -139,7 +139,7 @@
 	new /obj/item/clothing/head/hats/intern(src)
 
 /obj/structure/closet/secure_closet/nanotrasen_consultant
-	name = "nanotrasen consultant's locker"
+	name = "GATO consultant's locker" //GS13 EDIT
 	req_access = list()
 	req_one_access = list(ACCESS_CENT_GENERAL)
 	icon_state = "cc"
