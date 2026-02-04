@@ -111,6 +111,6 @@ export const no_neck: Feature<number> = {
 
 export const weak_lungs: Feature<number> = {
   name: 'Weak lungs',
-  description: 'At what weight will you start requiring more oxygen to breathe? 0 disables this.',
+  description: 'At what weight will you start requiring more oxygen to breathe? Caps at requiring double the oxygen at 3x this pref. 0 disables this.',
   component: FeatureNumberInput,
 };

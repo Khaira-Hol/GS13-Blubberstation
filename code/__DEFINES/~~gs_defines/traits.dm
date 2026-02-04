@@ -12,7 +12,7 @@
 #define HELPLESSNESS_TRAIT "helplessness"
 #define TRAIT_NO_HELPLESSNESS "no_helplessness"
 #define TRAIT_NO_NECK "no_neck"
-#define TRAIT_WEAK_LUNGS	"weak_lungs"
+#define TRAIT_WEAK_LUNGS	"fat_lungs"
 #define TRAIT_LOW_FOV "fat_blocking_view"
 #define TRAIT_VERY_LOW_FOV "fat_blocking_view_HARD"
 
