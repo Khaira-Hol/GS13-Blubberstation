@@ -219,7 +219,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/commons/dock/secondary)
 "ul" = (
-/obj/structure/sign/nanotrasen,
+/obj/structure/sign/gato,
 /turf/closed/wall,
 /area/station/commons/dock/secondary)
 "uv" = (

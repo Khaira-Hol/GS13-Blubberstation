@@ -2144,8 +2144,8 @@
 /turf/open/floor/engine,
 /area/lavaland/underground)
 "byx" = (
-/obj/structure/window/calorite/spawner/directional/south,
 /obj/structure/window/calorite/unanchored/spawner/directional/east,
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "byS" = (
@@ -3201,14 +3201,11 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/donut_factory)
 "cmY" = (
-/obj/structure/statue/calorite/fatty,
-/obj/effect/light_emitter/tendril,
-/obj/structure/window/calorite/spawner/directional/south,
-/obj/structure/window/calorite/spawner/directional/west,
-/obj/structure/window/calorite/spawner/directional/east,
-/obj/structure/marker_beacon/bronze,
-/turf/open/floor/mineral/calorite,
-/area/lavaland/underground/xenoarch/calorite_temple)
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "cnY" = (
 /obj/structure/rack/shelf,
 /obj/item/storage/box/donkpockets,
@@ -3825,6 +3822,7 @@
 	pixel_x = -18;
 	pixel_y = -8
 	},
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "cJk" = (
@@ -4445,6 +4443,10 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "dho" = (
+/obj/structure/stone_tile/surrounding,
+/obj/structure/stone_tile/center,
+/obj/structure/trap/fattening,
+/obj/structure/trap/belch,
 /obj/structure/trap/fattening,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
@@ -5835,6 +5837,13 @@
 /obj/effect/turf_decal/siding/corner,
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_east)
+"elv" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block/cracked,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "elT" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -7351,6 +7360,13 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_east)
+"ftO" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "fuk" = (
 /obj/item/clothing/suit/caution,
 /obj/item/clothing/suit/caution,
@@ -7982,7 +7998,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 5
 	},
-/mob/living/simple_animal/hostile/fatten/magehand,
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/carpet/orange,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "fVg" = (
@@ -8300,6 +8316,12 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
+"ghu" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "gid" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -9069,7 +9091,7 @@
 /turf/open/misc/sandy_dirt,
 /area/lavaland/underground)
 "gPS" = (
-/obj/structure/statue/calorite/fatty,
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "gPW" = (
@@ -9804,18 +9826,13 @@
 	},
 /area/xenoarch/lavaland/bot)
 "hqs" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/structure/window/calorite/unanchored/spawner/directional/east,
-/turf/open/floor/plating,
-/area/lavaland/underground/xenoarch/caloriteresearch)
+/obj/structure/stone_tile/center,
+/obj/structure/stone_tile/surrounding/cracked,
+/obj/structure/trap/fattening,
+/obj/structure/trap/belch,
+/obj/structure/trap/fattening,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "hqI" = (
 /obj/item/trash/fleet_ration{
 	pixel_x = -11;
@@ -10113,7 +10130,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 9
 	},
-/mob/living/simple_animal/hostile/fatten/magehand,
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/carpet/orange,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "hzC" = (
@@ -10807,6 +10824,13 @@
 /obj/structure/rack/shelf,
 /turf/open/floor/iron,
 /area/xenoarch/lavaland/construction)
+"hWj" = (
+/obj/structure/statue/calorite/pillar,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "hWo" = (
 /obj/structure/toilet{
 	dir = 4
@@ -11502,6 +11526,10 @@
 	},
 /turf/open/misc/beach/sand,
 /area/lavaland/underground)
+"ivD" = (
+/obj/structure/window/calorite/unanchored/spawner/directional/west,
+/turf/open/floor/plating,
+/area/lavaland/underground/xenoarch/caloriteresearch)
 "iwd" = (
 /obj/item/kirbyplants/random/dead,
 /turf/open/floor/iron/smooth_corner,
@@ -12199,6 +12227,12 @@
 /obj/machinery/porta_turret/syndicate/fattening/heavy,
 /turf/open/floor/circuit,
 /area/lavaland/underground)
+"jah" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "jbB" = (
 /obj/structure/broken_flooring/singular/always_floorplane/directional/west,
 /turf/open/floor/iron/white,
@@ -12351,6 +12385,10 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/lowerlevel)
+"jja" = (
+/obj/structure/statue/calorite/pillar,
+/turf/open/floor/plating,
+/area/lavaland/underground/xenoarch/caloriteresearch)
 "jjf" = (
 /turf/open/floor/iron/dark/corner,
 /area/lavaland/underground/xenoarch/donut_factory)
@@ -13415,6 +13453,10 @@
 	},
 /turf/open/floor/engine,
 /area/lavaland/underground)
+"jXX" = (
+/obj/structure/statue/calorite/pillar,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "jYL" = (
 /obj/structure/rack,
 /obj/item/pickaxe/drill,
@@ -13625,6 +13667,7 @@
 	pixel_x = 0;
 	pixel_y = 15
 	},
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "kgO" = (
@@ -17193,7 +17236,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/xenoarch/lavaland/arch)
 "mFD" = (
-/obj/structure/trap/belch,
+/obj/structure/stone_tile/block,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
 "mFM" = (
@@ -18147,6 +18190,7 @@
 	},
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "nmf" = (
@@ -19919,6 +19963,12 @@
 	},
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/lavaland/public)
+"otY" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "ouC" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -20678,6 +20728,11 @@
 "pag" = (
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_west)
+"pak" = (
+/obj/structure/statue/calorite/pillar,
+/obj/structure/stone_tile,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "pal" = (
 /obj/structure/table,
 /obj/item/ammo_box/advanced/s12gauge/rubber{
@@ -21460,6 +21515,7 @@
 	},
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pDX" = (
@@ -21787,6 +21843,7 @@
 	pixel_x = 12;
 	pixel_y = -15
 	},
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pQT" = (
@@ -27566,6 +27623,7 @@
 	pixel_x = 18;
 	pixel_y = 18
 	},
+/obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "uei" = (
@@ -28637,6 +28695,15 @@
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/mine/xenoarch/engineering)
+"uKd" = (
+/obj/structure/stone_tile/surrounding/cracked{
+	dir = 5
+	},
+/obj/structure/trap/fattening,
+/obj/structure/trap/belch,
+/obj/structure/trap/fattening,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "uKf" = (
 /obj/structure/railing/wooden_fence{
 	dir = 4
@@ -28694,7 +28761,7 @@
 /turf/closed/wall,
 /area/xenoarch/lavaland/gen)
 "uNA" = (
-/obj/effect/light_emitter/tendril,
+/obj/structure/stone_tile/slab,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
 "uNN" = (
@@ -29029,6 +29096,11 @@
 /obj/structure/broken_flooring/pile/always_floorplane/directional/north,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
+"vab" = (
+/obj/structure/stone_tile/block/cracked,
+/obj/effect/light_emitter/tendril,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "vbF" = (
 /obj/machinery/light/very_dim/directional/east,
 /turf/open/floor/plating,
@@ -29072,7 +29144,6 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/lowerlevel)
 "vcr" = (
-/obj/structure/window/calorite/spawner/directional/north,
 /obj/item/shard/calorite_glass,
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
@@ -30771,6 +30842,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/xenoarch/lavaland/lowerlevel)
+"wkZ" = (
+/obj/structure/statue/calorite/pillar,
+/turf/open/floor/mineral/calorite,
+/area/lavaland/underground/xenoarch/caloriteresearch)
 "wla" = (
 /obj/structure/barricade/wooden,
 /obj/effect/decal/cleanable/dirt,
@@ -33205,6 +33280,13 @@
 /obj/effect/turf_decal/tile/neutral/full,
 /turf/open/floor/iron/dark/textured_large,
 /area/xenoarch/lavaland/foyer)
+"ydG" = (
+/obj/effect/light_emitter/tendril,
+/obj/structure/window/calorite/spawner/directional/west,
+/obj/structure/window/calorite/spawner/directional/east,
+/obj/structure/statue/calorite/fatty,
+/turf/open/floor/mineral/calorite,
+/area/lavaland/underground/xenoarch/calorite_temple)
 "ydJ" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
@@ -138245,11 +138327,11 @@ nEf
 nEf
 kHZ
 urx
-dho
-mFD
-dho
-mFD
-dho
+jXX
+ghu
+hqs
+jah
+jXX
 nmZ
 kHZ
 kHZ
@@ -138503,7 +138585,7 @@ nEf
 nEf
 kHZ
 rHJ
-mFD
+owY
 mRU
 xPF
 mRU
@@ -138761,7 +138843,7 @@ nEf
 kHZ
 kHZ
 rHJ
-dho
+uKd
 ggt
 kBo
 gTm
@@ -139019,11 +139101,11 @@ nEf
 kHZ
 kHZ
 rHJ
-mFD
+otY
 mRU
 bWe
 mRU
-mFD
+cIu
 ahx
 kHZ
 kHZ
@@ -139277,11 +139359,11 @@ nEf
 kHZ
 kHZ
 urx
+jXX
+cmY
 dho
-mFD
-dho
-mFD
-dho
+cmY
+jXX
 nmZ
 kHZ
 kHZ
@@ -153502,8 +153584,8 @@ tUz
 osi
 rkQ
 bmr
-hqs
-hqs
+bmr
+bmr
 bmr
 rkQ
 nqv
@@ -153760,7 +153842,7 @@ mWB
 lIl
 jAC
 jAC
-tby
+ivD
 jAC
 bOg
 tby
@@ -154015,7 +154097,7 @@ tCR
 mPB
 uAi
 utW
-dfp
+tXc
 jAC
 hCT
 qUf
@@ -154276,7 +154358,7 @@ rxs
 cuI
 vQN
 cjl
-cjl
+wkZ
 cjl
 cck
 vcr
@@ -154536,7 +154618,7 @@ mbm
 cjl
 mSF
 cjl
-tby
+jja
 hhH
 mys
 fsk
@@ -154725,10 +154807,10 @@ nND
 nND
 nND
 seq
-kHZ
-kHZ
 seq
-cmY
+ydG
+seq
+kHZ
 kHZ
 kHZ
 kHZ
@@ -154936,11 +155018,11 @@ seq
 xuW
 aVE
 eTl
-eTl
+gPS
 eTl
 seq
 bQk
-eTl
+gPS
 eTl
 seq
 mYJ
@@ -154948,7 +155030,7 @@ nRW
 nRW
 seq
 eTl
-eTl
+gPS
 aHh
 seq
 hhu
@@ -154977,15 +155059,15 @@ aIB
 seq
 oAl
 aVE
-gPS
+aIB
 umN
 nMS
 seq
 aIB
 seq
+hWj
 kHZ
-kHZ
-kHZ
+jXX
 kHZ
 kHZ
 kHZ
@@ -155241,10 +155323,10 @@ umN
 lHS
 xkR
 ssm
+elv
+ruj
 kHZ
 kHZ
-kHZ
-seq
 kHZ
 kHZ
 kHZ
@@ -155500,9 +155582,9 @@ aIB
 aIB
 seq
 uNA
+vab
 kHZ
 kHZ
-seq
 kHZ
 kHZ
 kHZ
@@ -155757,10 +155839,10 @@ iuy
 lHS
 xkR
 ssm
+ftO
+dEg
 kHZ
 kHZ
-kHZ
-seq
 kHZ
 kHZ
 kHZ
@@ -155968,11 +156050,11 @@ seq
 nAd
 uzb
 nKA
-nKA
+gPS
 nKA
 seq
 nKA
-nKA
+gPS
 nKA
 seq
 gzy
@@ -155980,7 +156062,7 @@ nRW
 nRW
 seq
 nKA
-nKA
+gPS
 nKA
 seq
 nyS
@@ -156009,15 +156091,15 @@ aIB
 seq
 wIZ
 uzb
-gPS
+aIB
 iuy
 bAC
 seq
 aIB
 seq
+pak
 kHZ
-kHZ
-kHZ
+jXX
 kHZ
 kHZ
 kHZ
@@ -156273,10 +156355,10 @@ nND
 nND
 nND
 seq
-msl
-kHZ
 seq
-cmY
+ydG
+seq
+kHZ
 kHZ
 kHZ
 kHZ
