@@ -125,7 +125,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/indestructible{
 	id = "ntrep_shutters";
-	name = "Nanotrasen Consultant's Shutters"
+	name = "GATO Consultant's Shutters"
 	},
 /turf/open/floor/plating,
 /area/centcom/interlink)
@@ -6237,7 +6237,7 @@
 	pixel_x = -8;
 	pixel_y = 10
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_y = 10
 	},
 /obj/item/stamp/void{
@@ -7587,7 +7587,7 @@
 	pixel_x = -5;
 	pixel_y = 3
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 8;
 	pixel_y = 12
 	},
@@ -15002,7 +15002,7 @@
 	pixel_y = 5
 	},
 /obj/item/folder/yellow,
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = -8;
 	pixel_y = 12
 	},
@@ -15018,7 +15018,7 @@
 /area/centcom/interlink)
 "nOb" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Nanotrasen Consultant's Office"
+	name = "GATO Consultant's Office"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/cent_com/rep_door,
 /obj/effect/turf_decal/siding/white{
@@ -16689,7 +16689,7 @@
 	pixel_x = 5;
 	pixel_y = -14
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 5;
 	pixel_y = -9
 	},
@@ -20844,7 +20844,7 @@
 	pixel_x = 10;
 	pixel_y = 10
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 6;
 	pixel_y = 4
 	},
@@ -20992,7 +20992,7 @@
 /area/centcom/holding/cafe)
 "uqJ" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Nanotrasen Consultant's Office"
+	name = "GATO Consultant's Office"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/cent_com/rep_door,
 /obj/effect/turf_decal/siding/white{

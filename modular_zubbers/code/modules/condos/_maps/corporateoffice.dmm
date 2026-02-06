@@ -13,21 +13,18 @@
 /obj/structure/sign/painting{
 	pixel_y = 32
 	},
-/obj/item/banner/command/mundane,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/item/banner/gato,
 /turf/open/indestructible/dark,
 /area/misc/condo)
 "bA" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /obj/structure/showcase/mecha/marauder,
 /obj/effect/turf_decal/tile/neutral/full,
-/obj/structure/sign/nanotrasen{
-	pixel_y = -32
-	},
 /turf/open/indestructible/dark/smooth_large,
 /area/misc/condo)
 "ca" = (
@@ -61,17 +58,16 @@
 /turf/open/indestructible/hotelwood,
 /area/misc/condo)
 "go" = (
-/obj/item/kirbyplants/organic/plant22,
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
+/obj/effect/turf_decal/tile/purple/opposingcorners,
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/indestructible/dark,
 /area/misc/condo)
 "gK" = (
-/obj/item/banner/command/mundane,
 /obj/machinery/light_switch/directional/south,
+/obj/item/banner/gato,
 /turf/open/indestructible/dark/smooth_large,
 /area/misc/condo)
 "hu" = (
-/obj/item/banner/command/mundane,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/directional/south,
 /obj/structure/secure_safe/directional/south{
@@ -80,6 +76,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/item/banner/gato,
 /turf/open/indestructible/dark,
 /area/misc/condo)
 "hN" = (
@@ -232,8 +229,8 @@
 /turf/open/indestructible/hotelwood,
 /area/misc/condo)
 "uM" = (
-/obj/item/banner/command/mundane,
 /obj/structure/extinguisher_cabinet/directional/north,
+/obj/item/banner/gato,
 /turf/open/indestructible/dark/smooth_large,
 /area/misc/condo)
 "wV" = (
@@ -259,10 +256,6 @@
 "yX" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/item/stamp{
-	pixel_x = -9;
-	pixel_y = 11
-	},
 /obj/item/stamp/denied{
 	pixel_y = 7;
 	pixel_x = -9
@@ -432,7 +425,7 @@
 /turf/open/indestructible/dark/smooth_large,
 /area/misc/condo)
 "Pv" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
+/obj/effect/turf_decal/tile/purple/opposingcorners,
 /turf/open/indestructible/dark,
 /area/misc/condo)
 "PO" = (
@@ -469,6 +462,14 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/indestructible/dark,
+/area/misc/condo)
+"SJ" = (
+/obj/structure/sign/flag/gato,
+/turf/closed/indestructible/riveted,
+/area/misc/condo)
+"Uj" = (
+/obj/structure/sign/gato,
+/turf/closed/indestructible/riveted,
 /area/misc/condo)
 "UC" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -515,9 +516,7 @@
 	pixel_y = 3;
 	pixel_x = 4
 	},
-/obj/item/sign/flag/nanotrasen{
-	pixel_y = 1
-	},
+/obj/item/sign/flag/gato,
 /turf/open/indestructible/dark/smooth_large,
 /area/misc/condo)
 
@@ -584,7 +583,7 @@ ax
 Ct
 Sx
 bA
-pD
+Uj
 pD
 zb
 zb
@@ -618,7 +617,7 @@ kL
 Xi
 Sx
 Zo
-pD
+SJ
 pD
 zb
 zb
@@ -652,7 +651,7 @@ ng
 FC
 Sx
 bA
-pD
+Uj
 pD
 zb
 zb

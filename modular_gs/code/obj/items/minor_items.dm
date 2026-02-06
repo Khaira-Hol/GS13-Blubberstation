@@ -287,8 +287,8 @@
 	force = 60
 
 /obj/item/gavelhammer/permafattening
-	desc = "Destroyer of waistlines."
-	name = "Permafat Hammer"
+	desc = "Destroyer of waistlines. It is infused with the finest powers of long-term fattening."
+	name = "Galbanic Hammer"
 	icon = 'modular_gs/icons/obj/weapons/calorite_hammer.dmi'
 	icon_state = "permafat_hammer"
 	damtype = PERMA_FAT

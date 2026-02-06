@@ -27,7 +27,7 @@
 
 // NT Consultant area
 /area/station/command/heads_quarters/nt_rep
-	name = "Nanotrasen Consultant's Office"
+	name = "GATO Consultant's Office" //GS13 EDIT - Change Nanotrasen to GATO
 	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "nt_rep"
 

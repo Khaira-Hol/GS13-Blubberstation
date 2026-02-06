@@ -24,18 +24,6 @@
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"aD" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/mob/living/simple_animal/hostile/fatten/magehand,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "aS" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
@@ -60,15 +48,6 @@
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/structure/gs13_fluff/brokenhose/scraps2,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
-"bc" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/mob/living/simple_animal/hostile/feed/chocolate_slime,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "bq" = (
@@ -257,23 +236,6 @@
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"eQ" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 10
-	},
-/obj/effect/turf_decal/siding/brown{
-	dir = 10
-	},
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/brown/corner{
-	dir = 4
-	},
-/mob/living/basic/skeleton,
-/obj/effect/light_emitter/tendril,
-/turf/open/floor/mineral/calorite/strong,
-/area/lavaland/surface/outdoors/virtual_domain)
 "eT" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
@@ -386,9 +348,11 @@
 /turf/open/floor/mineral/calorite/strong,
 /area/lavaland/surface/outdoors/virtual_domain)
 "gB" = (
-/mob/living/basic/skeleton,
-/obj/structure/window/calorite/spawner/directional/east,
-/turf/open/misc/asteroid/basalt/lava_land_surface/no_ruins,
+/obj/structure/chair/bronze,
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/mob/living/simple_animal/hostile/fatten/magehand,
+/turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "gK" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -910,13 +874,6 @@
 	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"rH" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/basic/slime/calorite,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "rJ" = (
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
@@ -971,15 +928,6 @@
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
 /mob/living/basic/slime/calorite,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
-"sA" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 6
-	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/mob/living/simple_animal/hostile/feed/chocolate_slime,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "sG" = (
@@ -1138,18 +1086,6 @@
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"wm" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/basic/slime/calorite,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "xi" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
 /obj/effect/light_emitter/tendril,
@@ -1280,15 +1216,6 @@
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"zA" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/simple_animal/hostile/fatten/magehand,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "zZ" = (
 /obj/structure/window/calorite/spawner/directional/south,
 /turf/open/floor/mineral/calorite/strong,
@@ -1387,13 +1314,6 @@
 /obj/structure/reagent_dispensers/keg/lipoifier,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"Do" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/mob/living/simple_animal/hostile/feed/chocolate_slime,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "DL" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
@@ -1467,13 +1387,6 @@
 /obj/structure/window/calorite/spawner/directional/west,
 /obj/structure/table/wood/fancy/orange,
 /turf/open/floor/mineral/calorite/strong,
-/area/lavaland/surface/outdoors/virtual_domain)
-"Fs" = (
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/structure/trap/belch,
-/mob/living/simple_animal/hostile/feed/chocolate_slime,
-/turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "Fy" = (
 /obj/structure/marker_beacon/bronze,
@@ -1565,8 +1478,10 @@
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "Hf" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
 /mob/living/simple_animal/hostile/feed/chocolate_slime,
-/turf/open/indestructible/chocolate,
+/turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "Hs" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
@@ -1587,13 +1502,6 @@
 	pixel_x = 15;
 	pixel_y = 13
 	},
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
-"Hy" = (
-/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/light_emitter/tendril,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "Hz" = (
@@ -1780,22 +1688,6 @@
 "KU" = (
 /turf/open/floor/mineral/calorite,
 /area/lavaland/surface/outdoors/virtual_domain)
-"KY" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/mob/living/simple_animal/hostile/fatten/magehand,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
-"KZ" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/simple_animal/hostile/fatten/magehand,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "Ll" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
@@ -1814,23 +1706,6 @@
 /obj/structure/window/calorite/spawner/directional/east,
 /obj/structure/window/calorite/spawner/directional/south,
 /turf/open/floor/mineral/calorite/dance,
-/area/lavaland/surface/outdoors/virtual_domain)
-"Lz" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 6
-	},
-/obj/effect/turf_decal/siding/brown{
-	dir = 6
-	},
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/brown/corner{
-	dir = 1
-	},
-/mob/living/basic/skeleton,
-/obj/effect/light_emitter/tendril,
-/turf/open/floor/mineral/calorite/strong,
 /area/lavaland/surface/outdoors/virtual_domain)
 "LG" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -2139,19 +2014,6 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/lavaland/surface/outdoors/virtual_domain)
-"RQ" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 9
-	},
-/obj/effect/turf_decal/siding/brown{
-	dir = 9
-	},
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/siding/brown/corner,
-/mob/living/basic/skeleton,
-/obj/effect/light_emitter/tendril,
-/turf/open/floor/mineral/calorite/strong,
-/area/lavaland/surface/outdoors/virtual_domain)
 "RW" = (
 /obj/structure/trap/fattening,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
@@ -2202,13 +2064,6 @@
 	},
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
-"TO" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "TR" = (
@@ -2277,15 +2132,6 @@
 /obj/structure/window/calorite/spawner/directional/north,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/surface/outdoors/virtual_domain)
-"UR" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/simple_animal/hostile/fatten/magehand,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "UU" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
@@ -2336,12 +2182,6 @@
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
-"VG" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/basic/slime/calorite,
-/turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
 "VK" = (
 /mob/living/simple_animal/hostile/feed/chocolate_slime,
 /turf/open/chocolateriver,
@@ -2354,13 +2194,6 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/calorite/strong,
-/area/lavaland/surface/outdoors/virtual_domain)
-"Wa" = (
-/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/simple_animal/hostile/fatten/magehand,
-/turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "Wg" = (
 /obj/effect/turf_decal/siding/brown,
@@ -2385,7 +2218,6 @@
 	},
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/basic/slime/calorite,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "WB" = (
@@ -2414,7 +2246,6 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/mob/living/basic/slime/calorite,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/surface/outdoors/virtual_domain)
 "WV" = (
@@ -2633,11 +2464,6 @@
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge,
 /obj/effect/turf_decal/tile/brown/diagonal_centre,
 /turf/open/floor/iron/diagonal,
-/area/lavaland/surface/outdoors/virtual_domain)
-"Zg" = (
-/mob/living/basic/skeleton,
-/obj/structure/window/calorite/spawner/directional/west,
-/turf/open/misc/asteroid/basalt/lava_land_surface/no_ruins,
 /area/lavaland/surface/outdoors/virtual_domain)
 "Zj" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -3000,7 +2826,7 @@ LW
 nz
 LW
 LW
-nz
+LW
 dF
 dF
 dF
@@ -3119,7 +2945,7 @@ FQ
 FQ
 LW
 LW
-LW
+uu
 dF
 dF
 dF
@@ -3155,7 +2981,7 @@ FQ
 FQ
 yO
 LW
-nz
+LW
 yO
 FQ
 FQ
@@ -3460,7 +3286,7 @@ FQ
 yO
 ou
 ct
-Hy
+ce
 xm
 ax
 oF
@@ -3513,14 +3339,14 @@ yO
 ou
 th
 HN
-pp
-TO
+xm
+Gd
 yO
 Xo
 PK
 tO
 yZ
-Lz
+Yz
 DZ
 yO
 rY
@@ -3714,7 +3540,7 @@ Mn
 BS
 CF
 WY
-oJ
+xm
 xm
 Gd
 yO
@@ -3764,7 +3590,7 @@ xB
 WB
 Hz
 JH
-oJ
+xm
 mq
 NV
 OM
@@ -3813,7 +3639,7 @@ dF
 dF
 yO
 ND
-KZ
+DZ
 yO
 ja
 qn
@@ -3837,7 +3663,7 @@ fu
 yO
 iN
 yO
-Zg
+WZ
 LW
 LW
 LW
@@ -3864,8 +3690,8 @@ yO
 yO
 yO
 yO
-UR
-zA
+ND
+Wn
 QE
 oV
 RW
@@ -4021,10 +3847,10 @@ Fh
 Ps
 Wg
 bD
-fZ
+gB
 xW
-oJ
-oJ
+xm
+xm
 xm
 xW
 iE
@@ -4040,7 +3866,7 @@ Xo
 yo
 Wk
 gr
-wm
+QW
 DZ
 yO
 iN
@@ -4073,7 +3899,7 @@ yO
 yO
 yO
 ND
-Wa
+sR
 pu
 te
 RW
@@ -4124,7 +3950,7 @@ dF
 dF
 dF
 yO
-UR
+ND
 DZ
 yO
 ja
@@ -4142,14 +3968,14 @@ iN
 yO
 um
 ND
-VG
+rJ
 rJ
 DZ
 Uu
 yO
 iN
 yO
-gB
+SK
 LW
 LW
 LW
@@ -4178,12 +4004,12 @@ dF
 yO
 lT
 Sq
-aD
+UX
 WY
-oJ
+xm
 iu
 cu
-KY
+WY
 Gd
 yO
 Qr
@@ -4195,7 +4021,7 @@ yO
 WC
 LG
 bD
-rH
+sR
 Qj
 gl
 yO
@@ -4235,7 +4061,7 @@ Zk
 PX
 JH
 xm
-oJ
+xm
 Gd
 yO
 yO
@@ -4294,7 +4120,7 @@ Sa
 cu
 td
 qZ
-VK
+qZ
 yO
 Qr
 gp
@@ -4342,11 +4168,11 @@ yO
 yO
 yO
 yO
-bc
+ou
 lx
 WV
 If
-VK
+qZ
 yO
 yO
 yO
@@ -4448,15 +4274,15 @@ FQ
 yO
 kK
 WV
-Fs
-xm
+Ba
+Hf
 pj
 yO
 ou
-RQ
+iC
 EC
 EC
-eQ
+Ko
 Gd
 yO
 it
@@ -4499,7 +4325,7 @@ FQ
 FQ
 yO
 qZ
-Hf
+WV
 pM
 xm
 Ze
@@ -4553,13 +4379,13 @@ yO
 qZ
 qZ
 WV
-Hf
-Do
+WV
+Gd
 yO
 ZU
 PK
 yZ
-tO
+yZ
 Yz
 Gd
 yO
@@ -4707,10 +4533,10 @@ LW
 FQ
 yO
 qZ
-VK
+qZ
 ak
 ak
-sA
+hw
 yO
 Qr
 gp
@@ -4767,7 +4593,7 @@ yO
 yO
 yO
 ht
-le
+ht
 yO
 yO
 yO
@@ -4818,7 +4644,7 @@ FQ
 FQ
 FQ
 yO
-nz
+LW
 LW
 yO
 FQ
@@ -4938,7 +4764,7 @@ FQ
 FQ
 LW
 LW
-LW
+uu
 dF
 dF
 dF

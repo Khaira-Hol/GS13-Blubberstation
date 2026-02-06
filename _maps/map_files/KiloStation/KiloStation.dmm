@@ -17287,12 +17287,7 @@
 /turf/closed/wall,
 /area/station/security/checkpoint/engineering)
 "fGz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/effect/turf_decal/stripes/line,
 /turf/closed/wall,
 /area/station/commons/dorms)
 "fGC" = (
@@ -43402,7 +43397,7 @@
 /obj/item/computer_disk/quartermaster,
 /obj/item/computer_disk/quartermaster,
 /obj/item/pen/fountain,
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 8;
 	pixel_y = 2
 	},
@@ -47390,7 +47385,7 @@
 	pixel_y = 4
 	},
 /obj/item/pen,
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 8;
 	pixel_y = 2
 	},
@@ -48017,7 +48012,6 @@
 /area/station/engineering/supermatter/room)
 "pvb" = (
 /obj/structure/sign/warning/secure_area,
-/obj/item/multitool,
 /turf/closed/wall/r_wall,
 /area/station/command/vault)
 "pvf" = (
@@ -53942,7 +53936,7 @@
 	pixel_x = 8;
 	pixel_y = 6
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 8;
 	pixel_y = 2
 	},
@@ -60728,7 +60722,7 @@
 /obj/item/stamp/denied{
 	pixel_x = 8
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 8;
 	pixel_y = 8
 	},
@@ -72539,11 +72533,6 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/storage)
-"xav" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/turf/closed/wall,
-/area/station/commons/dorms)
 "xaz" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -76323,8 +76312,8 @@
 "ykB" = (
 /obj/structure/table/wood,
 /obj/machinery/fax{
-	fax_name = "Nanotrasen Consultant's Office";
-	name = "Nanotrasen Consultant's Fax Machine"
+	fax_name = "GATO Consultant's Office";
+	name = "GATO Consultant's Fax Machine"
 	},
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/wood,
@@ -99164,7 +99153,7 @@ fuM
 tth
 pvm
 fuM
-xav
+moK
 qVR
 kTK
 iHT

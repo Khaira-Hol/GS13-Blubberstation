@@ -8154,7 +8154,7 @@
 	pixel_x = -6;
 	pixel_y = 4
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -9621,7 +9621,7 @@
 	pixel_x = 7;
 	pixel_y = 8
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -45927,7 +45927,7 @@
 	pixel_x = -5;
 	pixel_y = -1
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 13;
 	pixel_y = 12
 	},
@@ -47224,7 +47224,7 @@
 	pixel_x = -5;
 	pixel_y = 2
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -54862,7 +54862,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = -3;
 	pixel_y = 1
 	},
@@ -74585,7 +74585,7 @@
 	pixel_x = -6;
 	pixel_y = -7
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 7;
 	pixel_y = -1
 	},
@@ -81397,7 +81397,7 @@
 	pixel_x = 5;
 	pixel_y = 6
 	},
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = -7;
 	pixel_y = 2
 	},

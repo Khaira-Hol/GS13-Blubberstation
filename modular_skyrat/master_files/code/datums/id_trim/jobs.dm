@@ -63,7 +63,7 @@
 	template_access = list(ACCESS_CAPTAIN)
 
 /datum/id_trim/job/nanotrasen_consultant
-	assignment = "Nanotrasen Consultant"
+	assignment = "GATO Consultant" //GS13 EDIT Change Nanotrasen to GATO
 	trim_state = "trim_centcom"
 	department_color = COLOR_GREEN
 	subdepartment_color = COLOR_GREEN

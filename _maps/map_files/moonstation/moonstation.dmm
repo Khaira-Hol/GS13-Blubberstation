@@ -35145,7 +35145,7 @@
 /area/station/ai/upload/chamber)
 "jvA" = (
 /obj/structure/bodycontainer/morgue{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/station/medical/morgue/office)
@@ -81970,7 +81970,7 @@
 /area/station/hallway/primary/starboard)
 "vXN" = (
 /obj/structure/table/wood,
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 7;
 	pixel_y = 9
 	},
@@ -84984,7 +84984,7 @@
 	},
 /obj/item/dest_tagger,
 /obj/item/stack/package_wrap,
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 7;
 	pixel_y = 9
 	},

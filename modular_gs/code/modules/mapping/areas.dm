@@ -95,6 +95,14 @@
 /area/xenoarch/lavaland/lowerlevel
 	name = "Xenoarchaeology Lower Level Ruins"
 	icon_state = "xenoarch"
+
+/area/xenoarch/lavaland/public/powered //used primarily for quantum pads
+	name = "Xenoarchaeology Public Area"
+	icon_state = "xenobot"
+	power_light = TRUE
+	power_equip = TRUE
+	power_environ = TRUE
+	requires_power = FALSE
 //xenoarch main outpost areas end
 
 /area/lavaland/underground/xenoarch/calorite_temple

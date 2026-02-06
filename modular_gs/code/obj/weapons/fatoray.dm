@@ -54,7 +54,7 @@
 /obj/item/ammo_casing/energy/fattening/cannon
 	name = "one-shot fattening weapon lens"
 	select_name = "fatten"
-	e_cost = 100
+	e_cost = 1000
 	projectile_type = /obj/projectile/beam/fattening/cannon
 
 /obj/projectile/beam/fattening/cannon
@@ -111,7 +111,7 @@
 /obj/item/ammo_casing/energy/fattening/cannon_weak
 	name = "one-shot fattening weapon lens"
 	select_name = "fatten"
-	e_cost = 300
+	e_cost = 2500
 	projectile_type = /obj/projectile/beam/fattening/cannon_weak
 
 /obj/projectile/beam/fattening/cannon_weak

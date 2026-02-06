@@ -9322,7 +9322,7 @@
 "Yt" = (
 /obj/machinery/quantumpad{
 	map_pad_id = "lavaland_outpost";
-	map_pad_link_id = "xenoarch";
+	map_pad_link_id = "xenoarch2";
 	mapped_quantum_pads = list("station","xenoarch");
 	name = "To Xenoarch"
 	},
