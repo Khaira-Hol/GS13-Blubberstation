@@ -527,7 +527,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/cryopod, 32)
 	else
 		visible_message(span_infoplain("[user] starts putting [target] into the cryo pod."))
 
-	to_chat(target, span_warning("<b>If you ghost, log out or close your client now, your character will shortly be removed from the round. You may return as the same character afterwards.</b>")) //GS13 EDIT
+	to_chat(target, span_warning("<b>If you ghost, log out or close your client now, your character will shortly be removed from the round. You may return as the same character afterwards.</b>")) //GS13 EDIT Original:  to_chat(target, span_warning("<b>If you ghost, log out or close your client now, your character will shortly be permanently removed from the round.</b>"))
 
 	log_admin("[key_name(target)] entered a stasis pod.")
 	message_admins("[key_name_admin(target)] entered a stasis pod. [ADMIN_JMP(src)]")

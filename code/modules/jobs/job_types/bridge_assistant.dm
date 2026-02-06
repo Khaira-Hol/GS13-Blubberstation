@@ -24,7 +24,7 @@
 	department_for_prefs = /datum/job_department/captain
 	departments_list = list(/datum/job_department/command)
 
-	family_heirlooms = list(/obj/item/banner/gato) //GS13 EDIT
+	family_heirlooms = list(/obj/item/banner/gato) //GS13 EDIT ORIGINAL : family_heirlooms = list(/obj/item/banner/command/mundane)
 
 	mail_goodies = list(
 		/obj/item/storage/fancy/cigarettes = 1,

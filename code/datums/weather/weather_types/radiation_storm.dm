@@ -3,7 +3,7 @@
 	name = "radiation storm"
 	desc = "A cloud of intense radiation passes through the area dealing rad damage to those who are unprotected."
 
-	telegraph_duration = 60 SECONDS //GS13 EDIT
+	telegraph_duration = 60 SECONDS //GS13 EDIT ORIGINAL : telegraph_duration = 60 SECONDS
 	telegraph_message = span_danger("The air begins to grow warm.")
 
 	weather_message = span_userdanger("<i>You feel waves of heat wash over you! Find shelter!</i>")
@@ -40,7 +40,7 @@
 		/area/ruin/comms_agent/maint,
 		/area/icemoon/underground,
 
-		//GS13 EDIT
+		//GS13 EDIT add more protected areas
 		/area/station/service/bar,
 		/area/station/commons/dorms, //muh rp
 		//GS13 EDIT END

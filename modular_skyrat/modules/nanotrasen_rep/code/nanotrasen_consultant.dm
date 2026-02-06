@@ -139,7 +139,7 @@
 	new /obj/item/clothing/head/hats/intern(src)
 
 /obj/structure/closet/secure_closet/nanotrasen_consultant
-	name = "GATO consultant's locker" //GS13 EDIT
+	name = "GATO consultant's locker" //GS13 EDIT Change Nanotrasen to GATO
 	req_access = list()
 	req_one_access = list(ACCESS_CENT_GENERAL)
 	icon_state = "cc"
