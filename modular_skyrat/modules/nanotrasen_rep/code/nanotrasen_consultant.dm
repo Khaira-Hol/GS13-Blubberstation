@@ -111,8 +111,8 @@
 	greyscale_colors = "#017941#0060b8"
 
 /obj/item/storage/bag/garment/nanotrasen_consultant
-	name = "GATO consultant's garment bag" //GS13 EDIT
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the GATO consultant." //GS13 EDIT
+	name = "GATO consultant's garment bag" //GS13 EDIT Change Nanotrasen to GATO
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the GATO consultant." //GS13 EDIT Change Nanotrasen to GATO
 
 /obj/item/storage/bag/garment/nanotrasen_consultant/PopulateContents()
 	new /obj/item/clothing/shoes/sneakers/brown(src)
