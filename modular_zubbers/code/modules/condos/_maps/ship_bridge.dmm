@@ -9,7 +9,7 @@
 	pixel_x = -1;
 	pixel_y = 6
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "c" = (
 /obj/structure/table/reinforced/rglass,
@@ -55,7 +55,7 @@
 	},
 /area/misc/condo)
 "i" = (
-/obj/item/banner/command/mundane,
+/obj/item/banner/gato,
 /turf/open/floor/iron/dark/side{
 	dir = 5
 	},
@@ -63,7 +63,6 @@
 "j" = (
 /obj/item/kirbyplants/organic/plant21,
 /obj/effect/turf_decal/tile/dark_blue,
-/obj/structure/sign/flag/nanotrasen/directional/north,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -73,7 +72,7 @@
 	dir = 1;
 	color = "#2c7ada"
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "l" = (
 /obj/effect/turf_decal/tile/dark_blue,
@@ -83,7 +82,7 @@
 /area/misc/condo)
 "m" = (
 /obj/effect/turf_decal/tile/dark_blue,
-/obj/item/banner/command/mundane,
+/obj/item/banner/gato,
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
@@ -93,7 +92,7 @@
 /obj/item/paper_bin{
 	pixel_y = 4
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "o" = (
 /obj/machinery/light/cold/directional/west,
@@ -118,7 +117,7 @@
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "s" = (
 /obj/effect/turf_decal/tile/dark_blue,
@@ -141,13 +140,16 @@
 	dir = 1
 	},
 /area/misc/condo)
+"v" = (
+/obj/structure/sign/flag/gato,
+/turf/closed/wall/r_wall,
+/area/misc/condo)
 "w" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
 /area/misc/condo)
 "x" = (
 /obj/structure/table/reinforced/rglass,
-/obj/item/stamp,
 /obj/effect/spawner/random/bureaucracy/stamp{
 	pixel_x = 6;
 	pixel_y = 8
@@ -174,7 +176,7 @@
 /obj/structure/chair/comfy{
 	color = "#ce381e"
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "A" = (
 /obj/effect/turf_decal/tile/dark_blue,
@@ -191,7 +193,7 @@
 /obj/structure/chair/comfy{
 	color = "#4aac21"
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "D" = (
 /obj/machinery/shuttle_manipulator{
@@ -249,7 +251,7 @@
 	dir = 1;
 	color = "#1cbfcb"
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "L" = (
 /obj/machinery/modular_computer/preset/civilian{
@@ -259,7 +261,6 @@
 /obj/effect/turf_decal/tile/dark_blue{
 	dir = 1
 	},
-/obj/structure/sign/flag/nanotrasen/directional/south,
 /turf/open/floor/iron/dark/side,
 /area/misc/condo)
 "M" = (
@@ -273,7 +274,7 @@
 	dir = 1;
 	color = "#2cda61"
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "O" = (
 /obj/machinery/modular_computer/preset/civilian{
@@ -321,12 +322,12 @@
 /obj/structure/chair/comfy{
 	color = "#e6a515"
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/gato,
 /area/misc/condo)
 "S" = (
 /obj/effect/turf_decal/tile/dark_blue,
-/obj/item/banner/command/mundane,
 /obj/machinery/light_switch/directional/west,
+/obj/item/banner/gato,
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
@@ -335,7 +336,7 @@
 /obj/effect/turf_decal/tile/dark_blue{
 	dir = 1
 	},
-/obj/item/banner/command/mundane,
+/obj/item/banner/gato,
 /turf/open/floor/iron/dark/side{
 	dir = 6
 	},
@@ -457,7 +458,7 @@ X
 (5,1,1) = {"
 X
 E
-q
+v
 j
 M
 C
@@ -482,7 +483,7 @@ b
 N
 A
 L
-q
+v
 a
 E
 E

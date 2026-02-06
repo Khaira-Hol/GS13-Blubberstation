@@ -5305,7 +5305,7 @@
 "dSp" = (
 /obj/structure/table/wood,
 /obj/item/stamp/denied,
-/obj/item/stamp{
+/obj/item/stamp/granted{
 	pixel_x = 8
 	},
 /obj/item/paper{
