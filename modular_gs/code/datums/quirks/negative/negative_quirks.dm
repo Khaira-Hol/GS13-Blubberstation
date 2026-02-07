@@ -146,14 +146,25 @@
 
 /datum/quirk/helplessness/thick_neck
 	name = "Thick neck"
-	desc = "Your neck is really thick. At 3440 BFI, you will be unable to wear anything around it."
-	medical_record_text = "Patiens has a very thick neck."
+	desc = "Your neck is really thick. At 3440 BFI, you will be unable to wear anything around it. WARNING! PICKING THIS QUIRK WILL MAKE YOU UNABLE TO PUT ITEMS AROUND YOUR NECK REGARDLESS OF YOUR THICK NECK PREFERENCE!"
+	medical_record_text = "Patient has a very thick neck."
 	value = -1
 	gain_text = span_notice("You feel a tightness around your neck")
 	lose_text = span_notice("You no longer feel a tightness around your neck")
 	quirk_flags = 0
 	erp_quirk = 0
 	mob_trait = TRAIT_HELPLESS_THICK_NECK
+
+/datum/quirk/helplessness/weak_lungs
+	name = "Weak lungs"
+	desc = "Having this much mass naturally means you require more oxygen to breathe. Starting at 840 BFI, you will progressively require more air to breathe safely. WARNING! PICKING THIS QUIRK WILL MAKE YOU STRUGGLE TO BREATHE REGARDLESS OF YOUR WEAK LUNGS PREFERENCE! THIS MAY KILL YOU!"
+	medical_record_text = "Patients weight causes them to require more oxygen to breathe."
+	value = -4
+	gain_text = span_notice("You feel a tightness around your neck")
+	lose_text = span_notice("You no longer feel a tightness around your neck")
+	quirk_flags = 0
+	erp_quirk = 0
+	mob_trait = TRAIT_HELPLESS_WEAK_LUNGS
 
 /datum/quirk/permaberry
 	name = "Permaberry"

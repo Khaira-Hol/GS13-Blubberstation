@@ -135,7 +135,7 @@
 		return should_be_active
 	
 	var/obj/item/clothing/under/jumpsuit = fatty.w_uniform
-	if(istype(jumpsuit) && jumpsuit.modular_icon_location == null)
+	if(istype(jumpsuit))
 		to_chat(fatty, span_warning("[jumpsuit] can no longer contain your weight!"))
 		fatty.dropItemToGround(jumpsuit)
 	
@@ -256,3 +256,31 @@
 		fatty.dropItemToGround(neckwear)
 	
 	return should_be_active
+
+#define MAX_PRESSURE_DEBUFF 0.5
+
+/datum/helplessness/weak_lungs
+	helplessness_trait = TRAIT_WEAK_LUNGS
+	default_trigger_weight = FATNESS_LEVEL_MORBIDLY_OBESE	// It's called MORBIDLY obese for a reason
+	override_quirk = TRAIT_HELPLESS_WEAK_LUNGS
+	preference = /datum/preference/numeric/helplessness/weak_lungs
+	gain_message = "You feel a tightness around your neck."
+	lose_message = "You no longer feel a tightness around your neck."
+
+/datum/helplessness/weak_lungs/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+	. = ..()
+	var/should_be_active = .
+
+	if(!should_be_active)
+		return should_be_active
+	
+	var/obj/item/organ/lungs/holder_lungs = fatty.get_organ_slot(ORGAN_SLOT_LUNGS)
+	if (isnull(holder_lungs))
+		return FALSE
+	
+	var/pressure_debuff = (fatness - trigger_weight) / (2 * trigger_weight)	// 1 when fatness = 3x trigger weight
+	pressure_debuff = pressure_debuff * MAX_PRESSURE_DEBUFF		// scale it to be in range [0; MAX_PRESSURE_DEBUFF]
+	pressure_debuff = max(1 - pressure_debuff, MAX_PRESSURE_DEBUFF)		// and in result, we reach this cap when fatness = 3x trigger weight
+	holder_lungs.set_received_pressure_mult(pressure_debuff)
+
+#undef MAX_PRESSURE_DEBUFF

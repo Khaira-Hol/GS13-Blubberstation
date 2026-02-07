@@ -93,3 +93,7 @@
 	savefile_identifier = PREFERENCE_CHARACTER
 	savefile_key = "no_neck"
 
+/datum/preference/numeric/helplessness/weak_lungs
+	category = WG_PREFERENCES
+	savefile_identifier = PREFERENCE_CHARACTER
+	savefile_key = "weak_lungs"
