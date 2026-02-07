@@ -1,0 +1,5 @@
+author: "Phantastic-Swan"
+delete-after: True
+changes:
+  - rscadd: "Ports back the water sponge quirk"
+  - rscadd: "Ports back sink chugging"
