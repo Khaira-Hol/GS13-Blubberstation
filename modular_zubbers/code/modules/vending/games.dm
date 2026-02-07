@@ -124,6 +124,8 @@
 				/obj/item/toy/plush/gs13/kiki = 3,
 				/obj/item/toy/plush/gs13/marina = 3,
 				/obj/item/toy/plush/gs13/isaac_hyper = 3,
+				/obj/item/toy/plush/gs13/mako = 3,
+				/obj/item/toy/plush/gs13/swan = 3,
 				//GS13 plushies END
 			),
 		),
