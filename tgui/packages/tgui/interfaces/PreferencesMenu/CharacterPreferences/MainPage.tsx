@@ -532,6 +532,9 @@ export function MainPage(props: MainPageProps) {
   const HelplessnessPreferences = {
     ...data.character_preferences.helplessness_prefs,
   };
+  const BlueberryPreferences = {
+    ...data.character_preferences.blueberry_prefs,
+  };
   const GSExaminePreferences = {
     ...data.character_preferences.gs13_examine_prefs,
   };
@@ -550,6 +553,7 @@ export function MainPage(props: MainPageProps) {
   let prefPageContents;
   let BFI_stages; // GS13 EDIT
   let helplessness_contents; // GS13 EDIT
+  let blueberry_contents; // GS13 EDIT
   switch (currentPrefPage) {
     case PrefPage.Visual:
       prefPageContents = (
@@ -641,9 +645,35 @@ export function MainPage(props: MainPageProps) {
         />
         </Section>
       );
+      blueberry_contents = (
+        <Section>
+        <b>Blueberry preferences</b>
+        <Divider />
+        <BlockQuote>
+          These preferences will allow you to customize whether and how 
+          blueberry inflation mechanics will affect you.
+        </BlockQuote>
+        <PreferenceList
+          randomizations={getRandomization(
+            BlueberryPreferences,
+            serverData,
+            randomBodyEnabled,
+          )}
+          preferences={BlueberryPreferences}
+          maxHeight="auto"
+        />
+        </Section>
+      );
       break;
     case PrefPage.GSExaminePrefs:
       prefPageContents = (
+        <Section>
+        <BlockQuote>
+          These preferences will allow you to customize the various flavor 
+          texts displayed upon examination depending on your weight/muscle 
+          stage. These can be at most 300 characters long. Leaving them blank 
+          will make you use the default flavor texts.
+        </BlockQuote>
         <PreferenceList
           randomizations={getRandomization(
             GSExaminePreferences,
@@ -653,6 +683,7 @@ export function MainPage(props: MainPageProps) {
           preferences={GSExaminePreferences}
           maxHeight="auto"
         />
+        </Section>
       );
       break;
     // GS13 END EDIT
@@ -840,6 +871,7 @@ export function MainPage(props: MainPageProps) {
               <Stack.Item>{BFI_stages}</Stack.Item>
               <Stack.Item>{prefPageContents}</Stack.Item>
               <Stack.Item>{helplessness_contents}</Stack.Item>
+              <Stack.Item>{blueberry_contents}</Stack.Item>
               {/* GS13 END EDIT */}
             </Stack>
           </Stack>

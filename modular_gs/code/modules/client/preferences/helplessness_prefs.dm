@@ -82,7 +82,7 @@
 	maximum = 100
 
 /datum/preference/numeric/helplessness/blueberry_max_before_burst
-	category = HELPLESSNESS_PREFERENCES
+	category = BLUEBERRY_PREFERENCES
 	savefile_identifier = PREFERENCE_CHARACTER
 	savefile_key = "blueberry_max_before_burst"
 	minimum = 0
