@@ -11,7 +11,6 @@
 /datum/preference/numeric/starting_fatness/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
 	target.fatness_real += value
 
-
 /datum/preference/numeric/weight_gain_rate
 	category = WG_PREFERENCES
 	savefile_identifier = PREFERENCE_CHARACTER
@@ -26,7 +25,6 @@
 /datum/preference/numeric/weight_gain_rate/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
 	target.weight_gain_rate = value
 
-
 /datum/preference/numeric/weight_loss_rate
 	category = WG_PREFERENCES
 	savefile_identifier = PREFERENCE_CHARACTER
@@ -40,7 +38,6 @@
 
 /datum/preference/numeric/weight_loss_rate/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
 	target.weight_loss_rate = value
-
 
 /datum/preference/numeric/max_weight
 	category = WG_PREFERENCES
@@ -84,16 +81,16 @@
 	return
 
 /datum/preference/toggle/safe_bursting
-	category = WG_PREFERENCES
+	category = BLUEBERRY_PREFERENCES
 	savefile_identifier = PREFERENCE_CHARACTER
 	savefile_key = "safe_bursting"
-	default_value = FALSE
+	default_value = TRUE
 
 /datum/preference/toggle/safe_bursting/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
 	return
 
 /datum/preference/toggle/see_bursting
-	category = WG_PREFERENCES
+	category = BLUEBERRY_PREFERENCES
 	savefile_identifier = PREFERENCE_CHARACTER
 	savefile_key = "see_bursting"
 	default_value = FALSE

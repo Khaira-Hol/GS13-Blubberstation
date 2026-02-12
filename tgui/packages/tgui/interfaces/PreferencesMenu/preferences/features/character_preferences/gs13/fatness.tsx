@@ -27,27 +27,27 @@ export const weight_loss_rate: FeatureNumeric = {
 export const max_weight: Feature<number> = {
   name: 'Maximum Weight',
   description:
-    'What is the maximum weight we want our character to be at? 0 means there will be no weight cap.',
+    'What is the maximum weight your character can reach? 0 means there will be no weight cap.',
   component: FeatureNumberInput,
 };
 
 export const weight_gain_persistent: FeatureToggle = {
   name: 'Persistent weight',
   description:
-    'Endround/cryo weight becomes your new start weight. This will override your starting fatness.',
+    'Toggle whether endround/cryo weight will become your new start weight. This will override your starting fatness.',
   component: CheckboxInput,
 };
 
 export const weight_gain_permanent: FeatureToggle = {
   name: 'Permanent weight',
-  description: 'Persists between round, hard to remove.',
+  description: 'Toggle whether you want to be affected by permanent weight; a special type of fatness that is persistent and impossible to remove using normal means.',
   component: CheckboxInput,
 };
 
 export const severe_fatness_penalty: FeatureToggle = {
   name: 'Severe fatness penalties',
   description:
-    'Toggle if you want your character to be SIGNIFICANTLY affected by fattening mechanics, some of which may be persistent between rounds.',
+    'Toggle if you want to allow your character to be affected by mechanics which may put severe fatness-related penalties onto your character (such as micro-calorite poisoning).',
   component: CheckboxInput,
 };
 

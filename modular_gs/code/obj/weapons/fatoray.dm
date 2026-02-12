@@ -136,6 +136,6 @@
 		var/mob/living/carbon/carbon_target = target
 		if (carbon_target.micro_calorite_poisoning >= 1)
 			if (carbon_target.adjust_calorite_poisoning(-0.01 * fat_added))
-				carbon_target.adjust_perma(1 * fat_added, FATTENING_TYPE_MAGIC, TRUE)
+				carbon_target.adjust_perma(1 * fat_added, FATTENING_TYPE_WEAPON, TRUE)
 
 	return .
