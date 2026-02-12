@@ -51,7 +51,7 @@
 	desc = "A collar that amplifies caloric intake of the wearer."
 	id = "calorite_collar"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT *0.5, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 2)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT *0.5, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 3)
 	construction_time = 75
 	build_path = /obj/item/clothing/neck/human_petcollar/calorite
 	category = list(RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_MEDICAL)

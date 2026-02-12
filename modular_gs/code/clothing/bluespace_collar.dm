@@ -80,12 +80,6 @@ GLOBAL_LIST_INIT(stomach_expanding_sounds, list(
 	register_item_context()
 	register_context()
 
-/obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_transmitter/equipped(mob/user, slot)
-	. = ..()
-	var/mob/living/carbon/wearer = user
-	if(!iscarbon(wearer) || slot !=ITEM_SLOT_NECK || !wearer?.client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_items))
-		return FALSE
-
 /obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_transmitter/dropped(mob/user)
 	. = ..()
 	var/mob/living/carbon/wearer = user
@@ -187,6 +181,7 @@ GLOBAL_LIST_INIT(stomach_expanding_sounds, list(
 	origin.checkLiked(fraction, target_mob)
 	playsound(original_target.loc, origin.consumption_sound, rand(10,50), TRUE)
 	playsound(target_mob.loc, pick(GLOB.stomach_expanding_sounds), rand(10,50), TRUE)
+	target_mob.visible_message("<span class='warning'>[target_mob]'s belly seems to visibly distend a bit further'!</span>", "<span class='danger'>You feel your stomach get filled by liquid!</span>")
 	if(!iscarbon(target_mob))
 		return .
 	var/mob/living/carbon/carbon_drinker = target_mob

@@ -403,6 +403,7 @@ Behavior that's still missing from this component that original food items had t
 		if(IsFoodGone(owner, feeder))
 			return
 		var/eatverb = pick(eatverbs)
+
 		var/message_to_nearby_audience = ""
 		var/message_to_consumer = ""
 		var/message_to_blind_consumer = ""

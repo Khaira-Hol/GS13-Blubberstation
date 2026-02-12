@@ -74,8 +74,8 @@
 
 	//GS13 EDIT - Bluespace collar addition and interception
 	var/obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_transmitter/bs_collar_trans = 0
-	if(istype(user, /mob/living/carbon/human))
-		var/mob/living/carbon/human/human_eater = user
+	if(istype(target_mob, /mob/living/carbon/human))
+		var/mob/living/carbon/human/human_eater = target_mob
 		bs_collar_trans = human_eater.wear_neck
 	//GS13 END EDIT
 
@@ -108,7 +108,8 @@
 	var/fraction = min(gulp_size/reagents.total_volume, 1)
 	//GS13 EDIT - Bluespace collar addition and interception
 	if (!(istype(bs_collar_trans, /obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_transmitter) && bs_collar_trans.transpose_container(src, target_mob, user)))
-		reagents.trans_to(target_mob, gulp_size, transferred_by = user, methods = reagent_consumption_method)
+		// All code below up until the GS13 END EDIT tag is original code, just indented.
+		r eagents.trans_to(target_mob, gulp_size, transferred_by = user, methods = reagent_consumption_method)
 		checkLiked(fraction, target_mob)
 		playsound(target_mob.loc, consumption_sound, rand(10,50), TRUE)
 		if(!iscarbon(target_mob))
@@ -124,7 +125,7 @@
 		if(LAZYLEN(diseases_to_add))
 			AddComponent(/datum/component/infective, diseases_to_add)
 	//GS13 END EDIT
-	return .
+  	return .
 
 /obj/item/reagent_containers/cup/interact_with_atom(atom/target, mob/living/user, list/modifiers)
 	. = ..()

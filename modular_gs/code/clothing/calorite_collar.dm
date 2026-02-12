@@ -1,3 +1,5 @@
+#define WEIGHT_GAIN_MODIFIER_COLLAR "calorite_collar"
+
 /obj/item/clothing/neck
 	///How much faster does the wearer gain weight? 1 = 100% faster
 	var/weight_gain_rate_modifier = 0
@@ -12,7 +14,7 @@
 	if(!iscarbon(wearer) || slot !=ITEM_SLOT_NECK || !wearer?.client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_items))
 		return FALSE
 
-	wearer.add_weight_gain_modifier("calorite_collar",weight_gain_rate_modifier)
+	wearer.add_weight_gain_modifier(WEIGHT_GAIN_MODIFIER_COLLAR, weight_gain_rate_modifier)
 
 /obj/item/clothing/neck/dropped(mob/user)
 	. = ..()
@@ -23,7 +25,7 @@
 	if(!iscarbon(wearer) || !(wearer.get_item_by_slot(ITEM_SLOT_NECK) == src) || !wearer?.client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_items))
 		return FALSE
 
-	wearer.remove_weight_gain_modifier("calorite_collar",weight_gain_rate_modifier)
+	wearer.remove_weight_gain_modifier(WEIGHT_GAIN_MODIFIER_COLLAR)
 
 
 /obj/item/clothing/neck/human_petcollar/calorite
@@ -71,6 +73,7 @@
 				/obj/item/stack/sheet/mineral/calorite = 3)
 	time = 25 SECONDS
 	category = CAT_CLOTHING
+	crafting_flags = CRAFT_SKIP_MATERIALS_PARITY
 
 /datum/crafting_recipe/locked_calorite_collar
 
@@ -81,3 +84,4 @@
 				/obj/item/stack/sheet/mineral/calorite = 3)
 	time = 25 SECONDS
 	category = CAT_CLOTHING
+	crafting_flags = CRAFT_SKIP_MATERIALS_PARITY
