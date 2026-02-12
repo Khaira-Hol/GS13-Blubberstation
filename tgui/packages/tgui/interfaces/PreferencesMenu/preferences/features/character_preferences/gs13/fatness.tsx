@@ -40,14 +40,14 @@ export const weight_gain_persistent: FeatureToggle = {
 
 export const weight_gain_permanent: FeatureToggle = {
   name: 'Permanent weight',
-  description: 'Toggle whether you want to be affected by permanent weight; a special type of fatness that is persistent and impossibles to reemove using normal means.',
+  description: 'Toggle whether you want to be affected by permanent weight; a special type of fatness that is persistent and impossible to remove using normal means.',
   component: CheckboxInput,
 };
 
 export const severe_fatness_penalty: FeatureToggle = {
   name: 'Severe fatness penalties',
   description:
-    'Toggle if you want your character to be SIGNIFICANTLY affected by fattening mechanics, some of which may be persistent between rounds.',
+    'Toggle if you want to allow your character to be affected by mechanics which may put severe fatness-related penalties onto your character (such as micro-calorite poisoning).',
   component: CheckboxInput,
 };
 
