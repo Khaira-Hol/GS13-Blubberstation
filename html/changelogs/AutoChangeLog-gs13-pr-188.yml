@@ -1,8 +1,0 @@
-author: "Clumpy"
-delete-after: True
-changes:
-  - image: "made the centcom uniform sprites"
-  - image: "made the centcom plasmaman suit sprites"
-  - image: "made GT crates/locked crates/mail crates sprites"
-  - image: "made centcom hat sprites"
-  - image: "re-skinned centdrobe"

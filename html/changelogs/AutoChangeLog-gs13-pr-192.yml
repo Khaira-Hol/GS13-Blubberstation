@@ -1,4 +1,0 @@
-author: "Swan"
-delete-after: True
-changes:
-  - bugfix: "fixes heretical hunt bitrunning domain crashing the server"

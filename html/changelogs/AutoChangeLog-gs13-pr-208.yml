@@ -1,5 +1,0 @@
-author: "Swan"
-delete-after: True
-changes:
-  - rscadd: "adds the weak lungs helplessness pref - it will cause the player to require up to 2x the oxygen to breathe safely, scaled on weight."
-  - rscadd: "modular items are no longer exempt from the jumpsuit bursting pref"

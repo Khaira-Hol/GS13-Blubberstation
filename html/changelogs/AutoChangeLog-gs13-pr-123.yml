@@ -1,5 +1,0 @@
-author: "FFSoul64"
-delete-after: True
-changes:
-  - map: "Nebula Gatofication"
-  - code_imp: "Added MAPPING_DIRECTIONAL_HELPERS to GATO Posters so checks wouldn't scream when mappers put posters on walls"
