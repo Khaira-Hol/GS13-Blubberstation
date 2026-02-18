@@ -118,7 +118,7 @@
 	turns_per_move = 5
 	blood_volume = 0
 	gold_core_spawnable = HOSTILE_SPAWN
-	butcher_results = list(/obj/item/food/icecream = 4)
+	butcher_results = list(/obj/item/food/icecreamsandwich = 4)
 
 /obj/projectile/beam/fattening/icecream //might as well make use of this thing to not make ton of different variants of the same thing
 	name = "ice cream blob"

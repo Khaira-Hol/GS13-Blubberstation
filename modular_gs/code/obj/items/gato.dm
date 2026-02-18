@@ -172,6 +172,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gatofull_3, 32)
 	desc = "A billboard advertising GATO: A Better Tomorrow, Today."
 	icon_state = "billboard_gato"
 
+/obj/structure/billboard/helladonuts
+	name = "\improper Hella Nice Donuts"
+	icon = 'modular_gs/icons/obj/structure/billboard.dmi'
+	desc = "A billboard advertising a GATO Brand: Hella Nice Donuts - Lava-Baked Treats!"
+	icon_state = "billboard_hellanice"
+
 /obj/structure/billboard/nanotrasen/defaced
 	name = "defaced GATO billboard"
 	icon = 'modular_gs/icons/obj/structure/billboard.dmi'

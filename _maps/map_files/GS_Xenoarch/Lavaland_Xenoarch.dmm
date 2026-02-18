@@ -2544,6 +2544,14 @@
 /obj/machinery/photocopier/prebuilt,
 /turf/open/floor/iron,
 /area/xenoarch/lavaland/lowerlevel)
+"bMk" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "donut"
+	},
+/obj/item/food/donut/berry,
+/turf/open/floor/iron/dark/smooth_large,
+/area/lavaland/underground/xenoarch/donut_factory)
 "bMl" = (
 /obj/effect/decal/cleanable/wrapping,
 /turf/open/floor/plating,
@@ -5998,7 +6006,7 @@
 	dir = 8;
 	id = "donut"
 	},
-/obj/item/food/donut/jelly/plain,
+/obj/item/food/cakebatter,
 /turf/open/floor/iron/dark/smooth_large,
 /area/lavaland/underground/xenoarch/donut_factory)
 "epw" = (
@@ -6309,11 +6317,9 @@
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "eCY" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "donut"
-	},
-/obj/item/food/donut/jelly/slimejelly/caramel,
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/bot,
+/obj/item/food/donut/berry,
 /turf/open/floor/iron/dark/smooth_large,
 /area/lavaland/underground/xenoarch/donut_factory)
 "eCZ" = (
@@ -8590,6 +8596,10 @@
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wideplating/terracotta{
 	dir = 8
+	},
+/obj/item/storage/fancy/large_donut_box{
+	pixel_x = 1;
+	pixel_y = 10
 	},
 /turf/open/floor/mineral/sandstone_floor,
 /area/lavaland/underground/xenoarch/donut_factory)
@@ -11249,6 +11259,13 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
+"igO" = (
+/obj/machinery/conveyor{
+	id = "donut"
+	},
+/obj/item/food/donut/berry,
+/turf/open/floor/iron/dark/smooth_large,
+/area/lavaland/underground/xenoarch/donut_factory)
 "igY" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -13036,6 +13053,10 @@
 	},
 /turf/open/floor/carpet/green,
 /area/xenoarch/lavaland/maint_east)
+"jDq" = (
+/obj/structure/billboard/helladonuts,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/underground)
 "jDN" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -18663,6 +18684,10 @@
 /obj/effect/turf_decal/siding/wideplating/terracotta{
 	dir = 4
 	},
+/obj/item/storage/fancy/large_donut_box{
+	pixel_x = -1;
+	pixel_y = 9
+	},
 /turf/open/floor/mineral/sandstone_floor,
 /area/lavaland/underground/xenoarch/donut_factory)
 "nyn" = (
@@ -20950,6 +20975,10 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "paH" = (
 /obj/structure/table/wood,
+/obj/item/storage/fancy/large_donut_box{
+	pixel_x = -1;
+	pixel_y = 11
+	},
 /turf/open/floor/wood/tile,
 /area/lavaland/underground/xenoarch/donut_factory)
 "paN" = (
@@ -23672,9 +23701,9 @@
 /area/xenoarch/lavaland/lowerlevel)
 "rem" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box{
-	pixel_x = 10;
-	pixel_y = 9
+/obj/item/storage/fancy/large_donut_box{
+	pixel_x = -1;
+	pixel_y = 22
 	},
 /turf/open/floor/carpet/red,
 /area/lavaland/underground/xenoarch/donut_factory)
@@ -28475,9 +28504,9 @@
 /area/lavaland/underground)
 "uvD" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box{
-	pixel_x = 0;
-	pixel_y = 6
+/obj/item/storage/fancy/large_donut_box{
+	pixel_x = -1;
+	pixel_y = 12
 	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/lavaland/underground/xenoarch/donut_factory)
@@ -30149,6 +30178,13 @@
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/lavaland/underground/xenoarch/donut_factory)
+"vGc" = (
+/obj/machinery/conveyor{
+	id = "donut"
+	},
+/obj/item/food/cakebatter,
 /turf/open/floor/iron/dark/smooth_large,
 /area/lavaland/underground/xenoarch/donut_factory)
 "vGr" = (
@@ -103778,7 +103814,7 @@ nEf
 foF
 kHZ
 kHZ
-kHZ
+jDq
 kHZ
 dGO
 kHZ
@@ -105349,7 +105385,7 @@ sVr
 sVr
 jjn
 clz
-sVr
+igO
 sJr
 ioH
 oQy
@@ -105593,7 +105629,7 @@ jUz
 jxa
 jxa
 mWu
-eCY
+epf
 vtK
 nfj
 hjb
@@ -105627,7 +105663,7 @@ kHZ
 kHZ
 ubM
 hHU
-kHZ
+jDq
 kHZ
 kHZ
 kHZ
@@ -106369,7 +106405,7 @@ fIF
 jBq
 bSm
 vfJ
-eCY
+epf
 qEU
 fIF
 fIF
@@ -106893,7 +106929,7 @@ ezT
 hYQ
 wco
 mWu
-wfP
+bMk
 vPw
 jUz
 hrq
@@ -107139,7 +107175,7 @@ nEf
 nEf
 jUz
 ioH
-clz
+vGc
 sVr
 dmA
 nxC
@@ -107412,7 +107448,7 @@ mWu
 clz
 sVr
 jjn
-sVr
+igO
 gfH
 sJr
 fRW
@@ -107674,7 +107710,7 @@ kbq
 hSN
 cmW
 fRW
-hrq
+eCY
 jUz
 xrx
 xrx
@@ -109959,7 +109995,7 @@ jkn
 jkn
 kHZ
 kHZ
-foR
+kHZ
 kHZ
 nEf
 nEf
@@ -110013,7 +110049,7 @@ kHZ
 kHZ
 ubM
 hHU
-kHZ
+jDq
 kHZ
 kHZ
 kHZ
@@ -110250,7 +110286,7 @@ jUz
 rgn
 jBV
 jUz
-hrq
+eCY
 vPw
 aXx
 fRW
@@ -110512,7 +110548,7 @@ aOH
 vPw
 vjH
 fRW
-hrq
+eCY
 jUz
 krZ
 sKq
@@ -112807,7 +112843,7 @@ nEf
 nEf
 foF
 kHZ
-kHZ
+jDq
 kHZ
 iKN
 kHZ
@@ -113634,7 +113670,7 @@ kHZ
 kHZ
 kHZ
 kHZ
-kHZ
+jDq
 kHZ
 kHZ
 kHZ
