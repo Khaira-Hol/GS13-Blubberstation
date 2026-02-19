@@ -126,10 +126,12 @@
 /area/lavaland/underground/xenoarch/donut_factory
 	name = "GATO Donut Factory"
 	icon_state = "donutfactory"
+	requires_power = TRUE
 
 /area/lavaland/underground/xenoarch/candy_outpost
 	name = "Candyland Survey Post"
 	icon_state = "candyoutpost"
+	requires_power = TRUE
 
 /area/lavaland/underground/xenoarch/candyland
 	name = "Candyland"

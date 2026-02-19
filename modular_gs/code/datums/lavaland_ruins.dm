@@ -4,7 +4,7 @@
 	description = "A medium-sized shrine temple, flooded with liquid and featuring a strange elevated altar."
 	prefix = "_maps/RandomRuins/LavaRuins/GS13/"
 	suffix = "Lavaland_Ruin_BerryAltar.dmm"
-	cost = 1
+	cost = 2
 	allow_duplicates = FALSE
 
 /datum/map_template/ruin/lavaland/caloriteshrine
@@ -24,3 +24,12 @@
 	suffix = "Lavaland_Ruin_CaloriteShrine2.dmm"
 	cost = 2
 	allow_duplicates = TRUE
+
+/datum/map_template/ruin/lavaland/feederdenruin
+	name = "Remains of Feeder Den"
+	id = "feederdenruin"
+	description = "Remains of the infamous Feeder Den, struck down by GATO's BSA Division. It has been boobie trapped in an attempt of area denial."
+	prefix = "_maps/RandomRuins/LavaRuins/GS13/"
+	suffix = "Lavaland_Ruin_FeederDenRuin.dmm"
+	cost = 3
+	allow_duplicates = FALSE //wouldn't make sense lore wise
