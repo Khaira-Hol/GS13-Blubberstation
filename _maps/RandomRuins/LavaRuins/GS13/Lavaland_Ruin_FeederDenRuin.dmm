@@ -129,6 +129,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
+"ec" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen/directional/west,
+/turf/open/floor/iron/lavaland_atmos,
+/area/ruin/unpowered)
 "ee" = (
 /obj/machinery/computer,
 /obj/effect/decal/cleanable/dirt,
@@ -254,12 +259,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
-"il" = (
-/obj/effect/mine/explosive/light,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/contraband/donut_corp/directional/north,
-/turf/open/floor/iron/lavaland_atmos,
-/area/ruin/unpowered)
 "ix" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plating/lavaland_atmos,
@@ -337,9 +336,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/chem_master/condimaster{
-	name = "CondiMaster Neo"
-	},
+/obj/machinery/chem_master/condimaster,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "kk" = (
@@ -347,9 +344,7 @@
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "km" = (
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
+/obj/machinery/power/smes,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "kS" = (
@@ -555,6 +550,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
+"ox" = (
+/obj/structure/broken_flooring/singular/always_floorplane/directional/east,
+/obj/structure/cable,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/unpowered)
 "oB" = (
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/space/syndicate{
@@ -634,10 +634,6 @@
 /obj/effect/mine/explosive/light,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
-"pv" = (
-/obj/structure/disposalpipe/segment,
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/ruin/unpowered)
 "pA" = (
 /obj/effect/turf_decal,
 /turf/open/floor/mineral/plastitanium/red,
@@ -663,12 +659,7 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "pX" = (
-/obj/machinery/vending/mealdor{
-	free = 1;
-	fair_market_price = 0;
-	extra_price = 0;
-	default_price = 0
-	},
+/obj/machinery/vending/mealdor,
 /turf/open/floor/mineral/basaltstone_floor,
 /area/ruin/unpowered)
 "pY" = (
@@ -688,10 +679,8 @@
 /area/ruin/unpowered)
 "ql" = (
 /obj/structure/table,
-/obj/machinery/plantgenes{
-	pixel_y = 6
-	},
 /obj/machinery/light/broken/directional/north,
+/obj/machinery/plantgenes,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "qs" = (
@@ -728,15 +717,10 @@
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "qK" = (
-/obj/machinery/vending/mealdor{
-	free = 1;
-	fair_market_price = 0;
-	extra_price = 0;
-	default_price = 0
-	},
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/vending/mealdor,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "qP" = (
@@ -790,6 +774,11 @@
 /area/ruin/unpowered)
 "sT" = (
 /turf/open/floor/mineral/plastitanium/red,
+/area/ruin/unpowered)
+"tm" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "tn" = (
 /obj/machinery/iv_drip/feeding_tube,
@@ -874,17 +863,27 @@
 /area/ruin/unpowered)
 "uW" = (
 /obj/machinery/door/airlock/public/glass,
-/turf/open/floor/mineral/basaltstone_floor,
+/turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "vh" = (
 /obj/machinery/computer,
 /turf/open/floor/plating/lavaland_atmos,
+/area/ruin/unpowered)
+"vl" = (
+/obj/effect/mine/explosive/light,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/contraband/donut_corp/directional/north,
+/turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "we" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/unpowered)
+"wf" = (
+/obj/effect/mine/explosive/light,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "wh" = (
@@ -1158,10 +1157,6 @@
 /obj/structure/broken_flooring/singular/always_floorplane/directional/west,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"Cb" = (
-/obj/effect/mine/explosive/light,
-/turf/open/floor/plating/lavaland_atmos,
-/area/ruin/unpowered)
 "Cc" = (
 /obj/structure/broken_flooring/side/directional/south,
 /turf/open/floor/plating/lavaland_atmos,
@@ -1242,11 +1237,6 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
-"Ek" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/open/floor/plating/lavaland_atmos,
-/area/ruin/unpowered)
 "Em" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/mineral/basaltstone_floor,
@@ -1267,13 +1257,6 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "EY" = (
-/obj/machinery/button/door{
-	desc = "A remote control-switch for secure storage.";
-	id = "feederden_hangar";
-	name = "Syndicate Hangar Blast Doors";
-	pixel_y = -24;
-	req_one_access_txt = "150"
-	},
 /obj/effect/turf_decal/caution{
 	dir = 4
 	},
@@ -1330,9 +1313,6 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "Hh" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
@@ -1397,21 +1377,8 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "IX" = (
-/obj/structure/closet/secure_closet/freezer/kitchen{
-	req_access = null
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/lavaland_atmos,
-/area/ruin/unpowered)
-"IY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sink/kitchen/directional/west,
-/turf/open/floor/iron/lavaland_atmos,
-/area/ruin/unpowered)
-"Jf" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
+/obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "JA" = (
@@ -1448,11 +1415,6 @@
 /obj/machinery/light/broken/directional/north,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
-"KI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/plating/lavaland_atmos,
-/area/ruin/unpowered)
 "KQ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -1480,9 +1442,6 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "Lt" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
 /obj/structure/cable,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
@@ -1556,6 +1515,11 @@
 /obj/effect/mine/explosive/light,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/unpowered)
+"NP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/unpowered)
 "NX" = (
 /obj/structure/broken_flooring/singular/always_floorplane/directional/east,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -1593,12 +1557,7 @@
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "OU" = (
-/obj/machinery/vending/dinnerware{
-	free = 1;
-	fair_market_price = 0;
-	extra_price = 0;
-	default_price = 0
-	},
+/obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/lavaland_atmos,
 /area/ruin/unpowered)
 "OZ" = (
@@ -1712,17 +1671,8 @@
 /obj/effect/turf_decal{
 	dir = 4
 	},
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/hatch{
-	name = "airlock";
-	req_access_txt = "150"
-	},
+/obj/machinery/door/airlock/hatch,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
-"SE" = (
-/obj/structure/broken_flooring/singular/always_floorplane/directional/east,
-/obj/structure/cable,
-/turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "SG" = (
 /obj/structure/table,
@@ -1826,11 +1776,7 @@
 /area/ruin/unpowered)
 "Xa" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "feederden_hangar";
-	name = "den hangar door";
-	dir = 4
-	},
+/obj/machinery/door/poddoor,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "XG" = (
@@ -2481,7 +2427,7 @@ EG
 HI
 HI
 Yn
-IY
+ec
 WS
 DA
 nN
@@ -2940,7 +2886,7 @@ YE
 Hy
 fc
 aM
-Cb
+wf
 WK
 DA
 Rx
@@ -2990,7 +2936,7 @@ OO
 As
 bb
 He
-KI
+NP
 DA
 PJ
 PJ
@@ -3235,7 +3181,7 @@ ZA
 ZA
 HI
 pf
-pv
+WK
 lU
 OO
 yL
@@ -3357,7 +3303,7 @@ DA
 Rj
 AW
 AW
-SE
+ox
 Vi
 qI
 pu
@@ -3402,7 +3348,7 @@ ee
 uE
 aM
 oS
-Jf
+cn
 DA
 rs
 fc
@@ -3489,10 +3435,10 @@ sA
 Lt
 zj
 Ka
-Ek
-Ek
-Ek
-Ek
+tm
+tm
+tm
+tm
 lO
 Vi
 dX
@@ -3531,7 +3477,7 @@ Ns
 oQ
 DA
 EI
-Cb
+wf
 fc
 fc
 Vi
@@ -3611,7 +3557,7 @@ DA
 DA
 DA
 WK
-il
+vl
 yk
 DA
 DA
