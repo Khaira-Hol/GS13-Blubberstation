@@ -42,3 +42,21 @@
 	suffix = "Lavaland_Ruin_CowBarn.dmm"
 	cost = 2
 	allow_duplicates = TRUE
+
+/datum/map_template/ruin/lavaland/candypocket
+	name = "Candy Pocket"
+	id = "candypocket"
+	description = "A pocket of candyland. This one is candy-themed."
+	prefix = "_maps/RandomRuins/LavaRuins/GS13/"
+	suffix = "Lavaland_Ruin_CandyPocket.dmm"
+	cost = 2
+	allow_duplicates = TRUE
+
+/datum/map_template/ruin/lavaland/chocopocket
+	name = "Choco Pocket"
+	id = "chocopocket"
+	description = "A pocket of candyland. This one is chocolate-themed."
+	prefix = "_maps/RandomRuins/LavaRuins/GS13/"
+	suffix = "Lavaland_Ruin_ChocoPocket.dmm"
+	cost = 2
+	allow_duplicates = TRUE

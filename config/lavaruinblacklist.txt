@@ -56,5 +56,7 @@ _maps/RandomRuins/LavaRuins/lavaland_surface_ash_walker1.dmm
 #_maps/RandomRuins/LavaRuins/GS13/Lavaland_Ruin_CaloriteShrine2.dmm
 #_maps/RandomRuins/LavaRuins/GS13/Lavaland_Ruin_FeederDenRuin.dmm
 #_maps/RandomRuins/LavaRuins/GS13/Lavaland_Ruin_CowBarn.dmm
+#_maps/RandomRuins/LavaRuins/GS13/Lavaland_Ruin_CandyPocket.dmm
+#_maps/RandomRuins/LavaRuins/GS13/Lavaland_Ruin_ChocoPocket.dmm
 
 ##GS13 MAPS END
