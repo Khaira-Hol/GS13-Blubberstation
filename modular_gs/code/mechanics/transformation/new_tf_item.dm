@@ -12,6 +12,8 @@
 		/obj/item/card,
 		/obj/item/radio,
 		/obj/item/disk/nuclear, // Woah there
+		/obj/item/storage,
+		/obj/item/portable_transmog,
 	)
 	/// What is the typepath of the soulcatcher component that we want to attach?
 	var/soulcatcher_typepath = /datum/component/carrier/soulcatcher/attachable/transformation
