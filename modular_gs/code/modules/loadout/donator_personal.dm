@@ -126,3 +126,8 @@
 	name = "Supermatter Pendant"
 	item_path = /obj/item/clothing/neck/supermatter_pendant
 	ckeywhitelist = list("absolutelyfree")
+
+/datum/loadout_item/head/lipomancer_hat
+	name = "Lipomancer Witch Hat"
+	item_path = /obj/item/clothing/head/lipomancers_hat
+	ckeywhitelist = list("mb62")

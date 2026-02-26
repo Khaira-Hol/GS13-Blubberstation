@@ -1,5 +1,5 @@
 //most of those are probably recolors, but this is just generally GATO / GS13 stuff
-
+/*
 /obj/item/clothing/head/helmet/space/hardsuit/ert/alert/gato
 	name = "GATO Hardsuit Helmet"
 	desc = "Exclusive version of a hardsuit helmet, usually reserved for GATO CC personnel."
@@ -27,4 +27,10 @@
 	mob_overlay_icon = 'modular_gs/icons/mob/head.dmi'
 	icon_state = "bitchberet"
 	mutantrace_variation = NONE
-
+*/
+/obj/item/clothing/head/lipomancers_hat
+	name = "Lipomancer Witch Hat"
+	desc = "A hat belonging to the lipomancer."
+	icon = 'modular_gs/icons/obj/clothing/head/hat.dmi'
+	worn_icon = 'modular_gs/icons/mob/clothing/head/hat.dmi'
+	icon_state = "lipomancer_hat"
