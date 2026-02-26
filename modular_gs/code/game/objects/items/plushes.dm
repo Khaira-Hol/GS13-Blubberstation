@@ -186,7 +186,7 @@
 
 /obj/item/toy/plush/gs13/swan
 	name = "Swan plush"
-	desc = "An adorable plushie of everyone's beloved waterbird. It seems angry; either at it's holder not going to sleep at a reasonable hour, or them not reporting problems in the right places."
+	desc = "An adorable plushie of everyone's beloved waterbird. Now with an equippable hat!"
 	icon_state = "swan"
 	var/brim = FALSE
 
@@ -209,3 +209,73 @@
 		icon_state = "swan-brim"
 		brim = TRUE
 	return TRUE
+
+/obj/item/toy/plush/gs13/voltz
+	name = "Battery dragon plushie"
+	desc = "A large and soft plushie depicting the prince of rexora-3 in a more marketable form. Though it doesn't explain why there's a battery slot in the back, or why the horns are metal..."
+	icon_state = "voltz"
+	pred_plush = TRUE
+	prey_plush = FALSE
+	can_eat_food = TRUE
+	/*
+	// copy pasting from [modular_skyrat/modules/modular_items/lewd_items/code/lewd_items/kinky_shocker.dm]
+	/// If the shocker is on or not
+	var/shocker_on = FALSE
+	/// Typecasted var that holds the cell placed in the shocker
+	var/obj/item/stock_parts/power_store/cell/cell
+	/// A type of what cell should be put in the shocker on initialize
+	var/preload_cell_type = null
+	/// What it should cost the cell to use the shocker once
+	var/cell_hit_cost = STANDARD_CELL_CHARGE * 0.015
+	/// If the user should be able to remove the cell or not
+	var/can_remove_cell = TRUE
+	/// The custom part of the string that is displayed on activation of the shocker
+	var/activate_sound = "sparks"
+	*/
+	/// shocker to handle the SHOCKING behavior
+	var/obj/item/kinky_shocker/shocker = /obj/item/kinky_shocker
+
+/obj/item/toy/plush/gs13/voltz/examine(mob/user)
+	. = ..()
+	if(shocker.cell)
+		. += span_notice("\The [src] is [round(shocker.cell.percent())]% charged.")
+	else
+		. += span_warning("\The [src] does not have a power source installed.")
+
+/obj/item/toy/plush/gs13/voltz/Initialize(mapload)
+	. = ..()
+	shocker = new /obj/item/kinky_shocker
+	shocker.preload_cell_type = null
+	shocker.cell = null
+
+/obj/item/toy/plush/gs13/voltz/attackby(obj/item/item, mob/living/user, list/modifiers, list/attack_modifiers)
+	. = ..()
+	shocker.attackby(item, user, modifiers, attack_modifiers)
+
+/obj/item/toy/plush/gs13/voltz/click_alt(mob/user)
+	shocker.click_alt(user)
+
+/obj/item/toy/plush/gs13/voltz/attack_self(mob/user)
+	shocker.attack_self(user)
+
+/obj/item/toy/plush/gs13/voltz/attack(mob/living/target_mob, mob/living/user, list/modifiers, list/attack_modifiers)
+	. = ..()
+	shocker.attack(target_mob, user, modifiers, attack_modifiers)
+
+/obj/item/toy/plush/gs13/blake
+	name = "Friendly Lizard"
+	desc = "This version is known to try and be friends with all the others plushes."
+	icon_state = "blake"
+	stuffed_icon_state = "blake_stuffed"
+	pred_plush = TRUE
+	prey_plush = TRUE
+	can_eat_food = TRUE
+
+/obj/item/toy/plush/gs13/balian
+	name = "Scholarly Badger Plushie"
+	desc = "This professorial plush would look right at home sat behind a lectern; though you worry he'd start on a three hour lecture on the history of the Roman Empire. Unless you distract him with cake first. Lots of cake."
+	icon_state = "balian"
+	stuffed_icon_state = "balian_stuffed"
+	pred_plush = TRUE
+	prey_plush = FALSE
+	can_eat_food = TRUE

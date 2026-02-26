@@ -86,7 +86,15 @@
 	name = "Swan plush"
 	item_path = /obj/item/toy/plush/gs13/swan
 
-/datum/loadout_item/toys/plush/swan_plush
-	name = "Swan plush"
-	item_path = /obj/item/toy/plush/gs13/swan
+/datum/loadout_item/toys/plush/voltz_plush
+	name = "Battery dragon plush"
+	item_path = /obj/item/toy/plush/gs13/voltz
+
+/datum/loadout_item/toys/plush/blake_plush
+	name = "Friendly Lizard plush"
+	item_path = /obj/item/toy/plush/gs13/blake
+
+/datum/loadout_item/toys/plush/balian_plush
+	name = "Scholarly Badger plush"
+	item_path = /obj/item/toy/plush/gs13/balian
 

@@ -128,6 +128,9 @@
 				/obj/item/toy/plush/gs13/isaac_hyper = 3,
 				/obj/item/toy/plush/gs13/mako = 3,
 				/obj/item/toy/plush/gs13/swan = 3,
+				/obj/item/toy/plush/gs13/voltz = 3,
+				/obj/item/toy/plush/gs13/blake = 3,
+				/obj/item/toy/plush/gs13/balian = 3,
 				//GS13 plushies END
 			),
 		),
