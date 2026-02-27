@@ -1935,8 +1935,8 @@
 /turf/open/floor/iron,
 /area/station/security/checkpoint/supply)
 "agK" = (
-/obj/structure/sign/gatofull_2/directional/north,
-/turf/open/openspace,
+/obj/effect/decal/gatofull_3,
+/turf/closed/wall,
 /area/station/hallway/primary/tram/left)
 "agL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16378,10 +16378,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/lobby)
-"ezS" = (
-/obj/structure/sign/gatofull_2/directional/north,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/center)
 "ezV" = (
 /obj/machinery/duct,
 /obj/effect/turf_decal/trimline/neutral/filled/line,
@@ -17298,9 +17294,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/tram/right)
 "eSa" = (
-/obj/structure/sign/gatofull_3/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/center)
+/obj/effect/decal/gatofull_1,
+/turf/closed/wall,
+/area/station/hallway/primary/tram/left)
 "eSj" = (
 /obj/structure/table,
 /obj/item/storage/box/firingpins,
@@ -21773,9 +21769,9 @@
 /turf/open/floor/iron,
 /area/station/commons/fitness)
 "gyl" = (
-/obj/structure/sign/gatofull_1/directional/north,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/right)
+/obj/effect/decal/gatofull_3,
+/turf/closed/wall,
+/area/station/hallway/primary/tram/center)
 "gyn" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/spawner/random/vending/colavend,
@@ -22689,10 +22685,6 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/station/solars/port/asteriod)
-"gPt" = (
-/obj/structure/sign/gatofull_3/directional/north,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/right)
 "gPA" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -23159,10 +23151,6 @@
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/iron,
 /area/station/security/prison)
-"gYm" = (
-/obj/structure/sign/gatofull_2/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/center)
 "gYp" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/box,
@@ -23339,10 +23327,6 @@
 	},
 /turf/open/floor/eighties,
 /area/station/commons/fitness/recreation/entertainment)
-"hcx" = (
-/obj/structure/sign/gatofull_1/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/center)
 "hde" = (
 /obj/machinery/sparker/directional/west{
 	id = "testigniter"
@@ -27048,8 +27032,8 @@
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/port/central)
 "ixs" = (
-/obj/structure/sign/gatofull_3/directional/south,
-/turf/open/openspace,
+/obj/effect/decal/gatofull_2,
+/turf/closed/wall,
 /area/station/hallway/primary/tram/right)
 "ixu" = (
 /obj/structure/noticeboard/directional/north,
@@ -31249,10 +31233,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
-"jUI" = (
-/obj/structure/sign/gatofull_2/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/right)
 "jUO" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -33299,10 +33279,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/cafeteria,
 /area/station/command/heads_quarters/rd)
-"kyh" = (
-/obj/structure/sign/gatofull_2/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/left)
 "kyq" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -40153,8 +40129,8 @@
 /turf/open/floor/circuit/green,
 /area/station/science/robotics/mechbay)
 "mKn" = (
-/obj/structure/sign/gatofull_2/directional/north,
-/turf/open/openspace,
+/obj/effect/decal/gatofull_1,
+/turf/closed/wall,
 /area/station/hallway/primary/tram/right)
 "mKq" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -40260,8 +40236,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "mMZ" = (
-/obj/structure/sign/gatofull_3/directional/south,
-/turf/open/openspace,
+/obj/effect/decal/gatofull_2,
+/turf/closed/wall,
 /area/station/hallway/primary/tram/left)
 "mNp" = (
 /obj/structure/chair/sofa/middle{
@@ -44095,9 +44071,9 @@
 /turf/open/floor/iron/dark,
 /area/station/security/interrogation)
 "ohn" = (
-/obj/structure/sign/gatofull_3/directional/north,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/center)
+/obj/effect/decal/gatofull_3,
+/turf/closed/wall,
+/area/station/hallway/primary/tram/right)
 "oho" = (
 /obj/structure/bookcase,
 /turf/open/floor/wood,
@@ -46530,10 +46506,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
-"pgh" = (
-/obj/structure/sign/gatofull_1/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/left)
 "pgm" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 8
@@ -65514,8 +65486,8 @@
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)
 "vzt" = (
-/obj/structure/sign/gatofull_1/directional/north,
-/turf/open/openspace,
+/obj/effect/decal/gatofull_2,
+/turf/closed/wall,
 /area/station/hallway/primary/tram/center)
 "vzx" = (
 /obj/machinery/atmospherics/components/binary/valve{
@@ -69269,9 +69241,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/construction/engineering)
 "wRj" = (
-/obj/structure/sign/gatofull_3/directional/north,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/left)
+/obj/effect/decal/gatofull_1,
+/turf/closed/wall,
+/area/station/hallway/primary/tram/center)
 "wRu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -71262,10 +71234,6 @@
 /obj/item/banner/cargo/mundane,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"xHr" = (
-/obj/structure/sign/gatofull_1/directional/north,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/left)
 "xHw" = (
 /turf/open/floor/iron/freezer,
 /area/station/science/lower)
@@ -72585,10 +72553,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
-"yfE" = (
-/obj/structure/sign/gatofull_1/directional/south,
-/turf/open/openspace,
-/area/station/hallway/primary/tram/right)
 "yfH" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/stripes/line{
@@ -159730,13 +159694,13 @@ sDe
 yiM
 tkv
 qUg
-yiM
-xHr
+eSa
+cFs
 nVr
 laU
 jGG
-pgh
-yiM
+cFs
+eSa
 rnR
 tkv
 yiM
@@ -159987,13 +159951,13 @@ gdF
 yiM
 yiM
 lIQ
-yiM
-agK
+mMZ
+cFs
 nVr
 laU
 jGG
-kyh
-yiM
+cFs
+mMZ
 aGL
 yiM
 yiM
@@ -160244,13 +160208,13 @@ dUl
 yiM
 iYd
 ifS
-yiM
-wRj
+agK
+cFs
 nVr
 laU
 jGG
-mMZ
-yiM
+cFs
+agK
 aEP
 qSQ
 yiM
@@ -167183,13 +167147,13 @@ eSz
 izU
 vYA
 kSI
-izU
-vzt
+wRj
+eSz
 nSP
 fXy
 lwN
-hcx
-izU
+eSz
+wRj
 ccU
 ghg
 jyH
@@ -167440,13 +167404,13 @@ eSz
 izU
 dEH
 izU
-izU
-ezS
+vzt
+eSz
 nSP
 fXy
 lwN
-gYm
-izU
+eSz
+vzt
 izU
 nAT
 jyH
@@ -167697,13 +167661,13 @@ fnb
 izU
 vYA
 seG
-izU
-ohn
+gyl
+eSz
 nSP
 fXy
 lwN
-eSa
-izU
+eSz
+gyl
 seG
 tHj
 jyH
@@ -173351,13 +173315,13 @@ aaa
 izU
 clO
 pbC
-izU
-vzt
+wRj
+eSz
 nSP
 fXy
 lwN
-hcx
-izU
+eSz
+wRj
 seG
 dCJ
 izU
@@ -173608,13 +173572,13 @@ aaa
 izU
 krh
 izU
-izU
-ezS
+vzt
+eSz
 nSP
 fXy
 lwN
-gYm
-izU
+eSz
+vzt
 izU
 roH
 izU
@@ -173865,13 +173829,13 @@ aaa
 izU
 jrz
 wYw
-izU
-ohn
+gyl
+eSz
 nSP
 fXy
 lwN
-eSa
-izU
+eSz
+gyl
 ghg
 xlZ
 izU
@@ -180804,13 +180768,13 @@ abM
 lZW
 qIt
 mzf
-bMb
-gyl
+mKn
+brm
 gay
 lZj
 jwH
-yfE
-bMb
+brm
+mKn
 gaH
 bly
 lVi
@@ -181061,13 +181025,13 @@ abM
 lZW
 bMb
 qHo
-bMb
-mKn
+ixs
+brm
 gay
 lZj
 jwH
-jUI
-bMb
+brm
+ixs
 aHo
 bMb
 lVi
@@ -181318,13 +181282,13 @@ abM
 skT
 lRs
 lVe
-bMb
-gPt
+ohn
+brm
 gay
 lZj
 jwH
-ixs
-bMb
+brm
+ohn
 aEv
 lRs
 lVi
