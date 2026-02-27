@@ -644,8 +644,8 @@ const UserStatusSection = (props) => {
         )}
         {/* GS13 EDIT */}
         {fatness !== undefined && (
-          <LabeledList.Item label="Satiety Level">
-            {`${active ? Math.round(fatness) : 0}`}
+          <LabeledList.Item label="Fatness Level">
+            {`${active ? Math.round(fatness) : 0} BFI`}
           </LabeledList.Item>
         )}
         {/* GS13 END EDIT */}
