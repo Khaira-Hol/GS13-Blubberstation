@@ -1,6 +1,0 @@
-author: "Swan"
-delete-after: True
-changes:
-  - rscadd: "adds the mobility exoskeleton MOD suit to the loadout menu"
-  - rscadd: "MOD status readout now displays weight"
-  - rscadd: "Loader MOD starts with the hydraulic assistance module"
