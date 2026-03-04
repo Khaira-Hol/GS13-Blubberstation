@@ -8,9 +8,9 @@
 | ----------------------- | ----------------------------------------------------------------- |
 | Git / GitHub cheatsheet | https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833 |
 | Guide to Modularization | [./modular_zubbers/readme.md](./modular_zubbers/readme.md)        |
-| Website                 | https://wiki.bubberstation.org/index.php?title=Main_Page          |
-| Wiki                    | https://tgstation13.org/wiki/Main_Page                            |
-| Codedocs								| https://bubberstation.github.io/Bubberstation                     |
+| TGStation Wiki					| https://tgstation13.org/wiki/Main_Page                            |
+| Bubberstation Website		| https://wiki.bubberstation.org/index.php?title=Main_Page          |
+| Bubberstation Codedocs	| https://bubberstation.github.io/Bubberstation                     |
 | Bubberstation Code			| https://github.com/Bubberstation/Bubberstation										|
 | Bubberstation Discord   | https://discord.gg/AvjrTqnqEx                                     |
 | Gain Station 13 Code		| https://github.com/sheepishgoat/GS13-Blubberstation								|
