@@ -63,9 +63,11 @@
 
 	. = COMPONENT_CANCEL_ATTACK_CHAIN // No hurting other cultists.
 
+	/*
 	if(!parent_item.Adjacent(target_mob))
 		to_chat(user, span_warning("The [parent] isn't close enough to [target_mob]"))
 		return
+	*/
 
 	if(!target_mob?.mind)
 		to_chat(user, span_warning("You are unable to transform someone without a mind."))
@@ -87,9 +89,11 @@
 		to_chat(user, span_warning("[target_mob] doesn't seem to want to be transformed."))
 		return
 
+	/*
 	if(!parent_item.Adjacent(target_mob))
 		to_chat(user, span_warning("The [parent] isn't close enough to [target_mob]"))
 		return
+	*/
 
 	if(parent_item in target_mob.contents) //If holding and TFing yourself into it, drop it.
 		var/turf/current_tile = get_turf(parent_item)
